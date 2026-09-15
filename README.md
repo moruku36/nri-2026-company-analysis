@@ -1,5 +1,7 @@
 # NRI 2026 Company Analysis
 
+![NRI 2026 Company Analysis Graphic Recording](./assets/repository-graphic-recording.jpg)
+
 > 株式会社野村総合研究所（NRI）の2026年の方向性・経営・AI/AX戦略・市場評価を、公開情報から横断的に分析するリサーチリポジトリ。  
 > **基準日: 2026-09-15**  
 > **Public-safe:** 非公開の社内情報、顧客情報、個人情報、勤務事情等は含めない。

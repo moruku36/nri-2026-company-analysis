@@ -1,0 +1,163 @@
+# Research Log
+
+最終更新: 2026-09-15
+
+このファイルは調査の進行、判断保留事項、公開版の情報取扱い方針を記録する。
+
+## Scope
+
+対象:
+
+- NRIの2026年経営戦略
+- 中期経営計画 2026–2028
+- 業績 / 株価 / バリュエーション
+- AI / AX / Agentic AI
+- OpenAI / Anthropic等のフロンティアAI影響
+- セキュリティ / ガバナンス
+- 競合
+- 外部評価
+- 人材 / 仕事の変化
+- 2027–2030シナリオ
+
+基準日: **2026-09-15**
+
+## Research principles
+
+1. NRI公式IR、ニュース、経営陣発言を一次情報として優先。
+2. 会社の目標と実績を区別する。
+3. 経営陣の説明と本レポートの解釈を区別する。
+4. 外部評価は報道、投資家、口コミ、コミュニティで信頼度を分ける。
+5. AIモデル名や競合情報は公開情報で確認できたもののみ扱う。
+6. 「公開情報で確認できない」ことを「存在しない」と断定しない。
+7. 公開リポジトリのため、非公開社内情報、顧客情報、個人情報、勤務事情等を含めない。
+
+## Commit history
+
+### Commit 1 — Repository initialization
+
+- README
+- 調査範囲
+- 初期Executive Summary
+- ディレクトリ設計
+
+### Commit 2 — Management / shareholder messaging
+
+- 中期経営計画2026–2028
+- 柳澤社長・経営陣発言
+- 株主向けメッセージ
+- 一次情報整理
+
+主要論点:
+
+**海外規模拡大から、国内高収益 + AX + Security + 海外再建へ。**
+
+### Commit 3 — Financial / stock / valuation
+
+- 業績
+- 株価
+- イベント分析
+- バリュエーション
+
+主要論点:
+
+**NRIは安定SIer株より、期待値の高い品質成長株として評価されている。**
+
+### Commit 4 — AI / AX
+
+- AI戦略
+- AFT / FDE
+- Frontier model impact
+- 社内AI変革
+- AI Security / Governance
+
+主要論点:
+
+**NRIは基盤モデル競争ではなく、顧客業務・既存システム・実装・統制を競争領域にしている。**
+
+### Commit 5 — Competition
+
+比較対象:
+
+- Accenture
+- NTT DATA
+- IBM
+- Deloitte
+- Fujitsu
+- Hitachi
+
+主要論点:
+
+**FDE/Agentic AIは急速に標準化しており、NRIは顧客コンテキストと長期運用で差別化する必要がある。**
+
+### Commit 6 — External view
+
+- 報道
+- 投資家/アナリスト
+- 社員口コミ
+- 人材市場
+- 技術者コミュニティ
+
+主要論点:
+
+**NRIの既存ブランドは非常に強いが、「AX企業」という外部認知はまだ実績形成の途中。**
+
+### Commit 7 — People / work
+
+- 人材戦略
+- AI時代の役割変化
+- Skills roadmap
+- Career implications
+- Public-safe policy
+
+主要論点:
+
+**AI単独スキルより、Cloud/Security/PM/Architecture/Domain × AIの組み合わせが重要。**
+
+### Commit 8 — Synthesis
+
+- Final assessment
+- Strengths / risks
+- 2027–2030 scenarios
+- Watchlist
+- Root README更新
+
+主要論点:
+
+**戦略の方向性は合理的。ただしAXを利益・継続収益・顧客成果へ転換できるかは2027年以降の実行で判定する。**
+
+## Known limitations
+
+### 1. 公開情報の限界
+
+顧客契約、社内KPI、非公開案件、人員配置等は公開情報からは確認できない。
+
+### 2. AI関連売上の定義
+
+将来AIがほぼすべての案件へ組み込まれると、AI関連売上というKPIの境界が曖昧になる可能性がある。
+
+### 3. AFTの成果
+
+2026-09-15時点では、第三者が定量検証できる大型AFT成果はまだ限定的。
+
+### 4. Frontier model response
+
+2026年8〜9月の最新OpenAI / Anthropicモデルに対して、NRI全社が特定モデル名を挙げて戦略変更した公式発表は、調査時点では明確に確認できなかった。
+
+これはNRIが対応していないことを意味しない。公開確認できない事項として扱う。
+
+### 5. 口コミ/コミュニティ
+
+社員口コミ、Reddit、note等は代表性を保証できないため、会社全体の事実として扱わない。
+
+## Next update triggers
+
+- 次回四半期決算
+- AFTの大型公開顧客事例
+- AI関連売上/KPI更新
+- AI駆動開発の定量成果
+- Anthropic/OpenAI/Google/AWSとの重要提携
+- 海外事業の再建進捗
+- 大型競合発表
+- AI/Agent securityの重要インシデントまたは規制変更
+
+更新時は `08-synthesis/watchlist.md` を起点に差分分析する。

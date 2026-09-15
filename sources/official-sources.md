@@ -26,6 +26,19 @@
 
 ## 常設ページ
 
+### 主要判断の直接参照先（2026-09-15再確認）
+
+ページ番号は資料に印字された番号。URLの `#page` は表紙を含むPDFのページ位置を指定する。
+
+| 確認対象 | 直接リンク・該当箇所 | 読み方 |
+|---|---|---|
+| 会計利益と調整後利益 | [2026年3月期決算説明会資料 p.4](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf#page=5) | 58,273百万円と156,673百万円。差額は「減損損失等」であり、減損額だけではない |
+| 1Q連結・国内業績とコンサル部門 | [2027年3月期1Q決算説明会資料 pp.3–4](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf#page=4) | 連結増益とコンサル減益を併記して評価する |
+| 2028年度の売上・利益目標 | [中期経営計画 p.17](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf#page=18) | 売上9,500億円・営業利益2,000億円は会社計画 |
+| AFT提供開始 | [2026-08-03ニュースリリース](https://www.nri.com/jp/news/newsrelease/20260803_1.html) | 提供開始の根拠。第三者によるROI検証とは区別する |
+
+この表は今回確認した主要論点の範囲を示す。全資料・全外部情報の再検証を意味しない。
+
 | 資料 | 用途 | URL |
 |---|---|---|
 | NRI IR 決算資料 | 四半期/年度業績、説明会資料、Q&A | https://ir.nri.com/jp/ir/library/financial.html |

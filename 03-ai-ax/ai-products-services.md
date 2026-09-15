@@ -18,6 +18,25 @@
 - AIエージェントへの知識反映
 - セキュアなAIプラットフォーム
 
+```mermaid
+flowchart TD
+    subgraph Client["顧客エンタープライズ"]
+        Mgmt["<b>経営層 / 事業部門長</b><br>経営課題・ROI要求・変革方針"]
+        Field["<b>業務現場 / 実務担当者</b><br>現場オペレーション・業務暗黙知・既存システム"]
+    end
+
+    subgraph NRI_AFT["NRI AFT (AI Field Transformer) 体制"]
+        Consultant["<b>AXコンサルタント</b><br>構想策定・ROIモデリング・変革合意形成"]
+        FDE["<b>FDE (Forward Deployed Engineer)</b><br>現場常駐・高速プロトタイプ・暗黙知コード化"]
+        Platform["<b>セキュアAI基盤 & ガバナンス</b><br>AgenticBlue・統制ログ・マルチクラウド接続"]
+    end
+
+    Mgmt <--> Consultant
+    Field <--> FDE
+    Consultant <--> FDE
+    FDE <--> Platform
+```
+
 ### 分析
 
 AFTはAI PoC支援のブランドではなく、AI時代向けのデリバリーモデル再設計として見る方が重要。
@@ -142,32 +161,38 @@ AIエージェント普及により、従来の情報セキュリティ統制だ
 
 ## 8. サービス群を構造化すると
 
-```text
-戦略・構想
-  ├─ AXコンサル
-  ├─ AFT
-  └─ 業界別構想
-       ↓
-AI基盤 / モデル
-  ├─ Claude
-  ├─ AWS Bedrock
-  ├─ Google Cloud / Gemini
-  └─ 業界・タスク特化型LLM
-       ↓
-実装
-  ├─ FDE
-  ├─ AIエージェント
-  ├─ AIネイティブシステム
-  └─ モダナイゼーション
-       ↓
-運用
-  ├─ AI SOC / AgenticBlue
-  ├─ 保守運用
-  └─ 継続ROI改善
-       ↓
-統制
-  ├─ AIセキュリティ
-  └─ AIガバナンス
+```mermaid
+flowchart TD
+    subgraph S1["① 戦略・構想"]
+        A1["AXコンサルティング"]
+        A2["NRI AFT (現場伴走)"]
+        A3["業界別・社会レジリエンス構想"]
+    end
+
+    subgraph S2["② AI基盤 / モデル調達"]
+        B1["Anthropic Claude"]
+        B2["Google Cloud (Gemini) / AWS Bedrock"]
+        B3["金融・業界特化型LLM (GENIAC)"]
+    end
+
+    subgraph S3["③ 実装・開発"]
+        C1["FDE (現場常駐開発)"]
+        C2["AIエージェント構築"]
+        C3["AIネイティブ・モダナイゼーション"]
+    end
+
+    subgraph S4["④ 運用・高度化"]
+        D1["AI SOC (AgenticBlue)"]
+        D2["ミッションクリティカル保守運用"]
+        D3["継続的ROI改善サイクル"]
+    end
+
+    subgraph S5["⑤ 統制・ガバナンス"]
+        E1["AIセキュリティ (NRI Secure)"]
+        E2["エージェント時代のAIガバナンス (3層ガードレール)"]
+    end
+
+    S1 --> S2 --> S3 --> S4 --> S5
 ```
 
 ## 評価

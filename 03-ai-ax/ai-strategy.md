@@ -30,18 +30,14 @@ AIの技術進化が速いほど、単一モデルに賭けるより、複数の
 
 NRIはAIを単なるツール販売・導入支援ではなく、次の需要連鎖を作る入口としている。
 
-```text
-AI構想
-  ↓
-業務プロセス再設計
-  ↓
-既存システムのモダナイゼーション
-  ↓
-AIエージェント実装
-  ↓
-AIネイティブな業務・システム
-  ↓
-運用 / セキュリティ / ガバナンス
+```mermaid
+flowchart TD
+    S1["<b>① AI構想 / AX戦略策定</b><br>(経営アジェンダ設定・ROI試算)"] --> S2["<b>② 業務プロセス再設計</b><br>(BPR・エージェント前提の業務分担)"]
+    S2 --> S3["<b>③ 既存システム刷新</b><br>(モダナイゼーション・データ基盤整備)"]
+    S3 --> S4["<b>④ AIエージェント実装</b><br>(マルチモデル・MCP・カスタムツール統合)"]
+    S4 --> S5["<b>⑤ AIネイティブ運用</b><br>(継続的改善・自律ワークフロー)"]
+    S5 --> S6["<b>⑥ セキュリティ & ガバナンス</b><br>(監査証跡・Identity統制・NRI Secure)"]
+    S6 -.->|共同利用プラットフォーム化| S7["<b>⑦ リカーリング収益</b>"]
 ```
 
 この流れでは、AIモデルの利用料だけでなく、コンサルティング・システム刷新・運用までNRIの売上機会になる。
@@ -71,6 +67,19 @@ NRIの競争優位は、
 **Model Intelligence × Customer Context × Enterprise Integration**
 
 のうち、後ろ2つを深く握ることにある。
+
+```mermaid
+flowchart TD
+    subgraph AdvantageStack["NRIのエンタープライズAI提供価値スタック"]
+        direction TB
+        L1["<b>Model Intelligence (基盤知能)</b><br>Anthropic (Claude) / Google (Gemini) / OpenAI / 金融特化LLM<br><i>※外部パートナー & ベンダーニュートラルに調達</i>"]
+        L2["<b>Customer Context (顧客コンテキスト)</b><br>業界固有知識・勘所・社内規程・業務暗黙知・合意形成プロセス<br><i>★NRIの最大の差別化源泉</i>"]
+        L3["<b>Enterprise Integration (企業システム統合 & 運用)</b><br>勘定系・基幹系接続 / 運用監視 / NRI Secure ガバナンス統制<br><i>★ミッションクリティカルSIerとしての強固な参入障壁</i>"]
+        
+        L1 --> L2
+        L2 --> L3
+    end
+```
 
 モデル性能差が縮小・高速に入れ替わるほど、「最適モデルを選び、企業固有の制約下で動かす能力」の重要性はむしろ高まる。
 
@@ -146,6 +155,33 @@ NRIの思想は、
 
 に応じてモデルを選択・組み合わせる。
 
+```mermaid
+flowchart TD
+    subgraph Clients["企業顧客の課題・ユースケース"]
+        C1["金融・ミッションクリティカル実務"]
+        C2["業務文書レビュー・コーディング支援"]
+        C3["全社エンタープライズ検索・分析"]
+    end
+
+    subgraph NRI_Layer["NRI AI オーケストレーション & セキュリティ基盤"]
+        direction TB
+        Route["<b>インテリジェント・ルーティング & 最適化</b><br>(タスク特性・レイテンシ・コスト判定)"]
+        Gov["<b>統制・監査・データ保護</b><br>(NRI Secure / 監査ログ / ガードレール)"]
+        Context["<b>顧客固有暗黙知 & 基幹連携</b><br>(社内データ・勘定系API・MCP)"]
+        Route --- Gov --- Context
+    end
+
+    subgraph FoundationModels["マルチモデル / マルチクラウド層"]
+        M1["<b>金融特化型LLM</b><br>(GENIAC / 高度実務)"]
+        M2["<b>Anthropic Claude</b><br>(3.7 Sonnet / Opus / Code)"]
+        M3["<b>Google Gemini</b><br>(Vertex AI / マルチモーダル)"]
+        M4["<b>OpenAI / Others</b><br>(Azure OpenAI / OSS)"]
+    end
+
+    Clients --> NRI_Layer
+    NRI_Layer --> FoundationModels
+```
+
 この点は、2026年後半のモデル更新速度がさらに上がったことで合理性が増している。
 
 ---
@@ -172,13 +208,13 @@ NRI AFTは、FDE（Forward Deployed Engineer）が顧客現場に入り、
 
 AFTは、
 
-```text
-現場へ入る
-→ AIを作る
-→ 効果を見る
-→ 暗黙知を吸収する
-→ 改良する
-→ 再度ROIを測る
+```mermaid
+flowchart LR
+    L1["<b>現場密着・課題特定</b><br>(FDE常駐)"] --> L2["<b>迅速なAIプロトタイプ</b><br>(高速実装)"]
+    L2 --> L3["<b>ROI測定 & 効果検証</b><br>(実務適用)"]
+    L3 --> L4["<b>暗黙知の吸収・形式知化</b><br>(業務ノウハウ抽出)"]
+    L4 --> L5["<b>エージェントへ反映・改良</b><br>(システム高度化)"]
+    L5 -->|反復サイクル| L1
 ```
 
 という高速ループ型。

@@ -25,6 +25,37 @@
 
 ➡️ **最初に読む:** [`08-synthesis/final-assessment.md`](./08-synthesis/final-assessment.md)
 
+```mermaid
+flowchart TD
+    subgraph Foundation["国内高収益基盤"]
+        F1["金融ITソリューション<br>(圧倒的収益源・ミッションクリティカル)"]
+        F2["産業IT & IT基盤<br>(流通・製造・通信・クラウド)"]
+    end
+
+    subgraph AX_Transformation["2026-2028 AX変革ドライバー"]
+        direction TB
+        G1["① AIによるビジネス変革<br>(中計2028: 売上3,000億円+ / 投資800億円)"]
+        G2["② デジタルセキュリティ<br>(AIガバナンス・AgenticBlue・売上1,280億円)"]
+        G3["③ 社会共創サービス<br>(独自IP・共同利用型プラットフォーム)"]
+    end
+
+    subgraph Internal["自社生産構造の革新"]
+        P1["AI駆動開発ロードマップ<br>(2028年 適用率100% / 2030年 最適化100%)"]
+        P2["高付加価値領域への人材シフト<br>(コンサル / Architecture / FDE)"]
+    end
+
+    subgraph Output["目指す企業価値 (2028年度)"]
+        O1["売上収益: 9,500億円"]
+        O2["営業利益: 2,000億円 (利益率21.1%)"]
+        O3["高資本効率: ROE 25%水準 & 配当性向40%"]
+    end
+
+    Foundation --> AX_Transformation
+    AX_Transformation --> Internal
+    Internal --> Output
+    Foundation -.-> Output
+```
+
 ---
 
 ## Key findings
@@ -109,6 +140,20 @@ NRIは2028年度までに、
 
 - AI高度人材: 1,147人 → 3,000人
 - セキュリティ高度人材: 1,198人 → 2,000人
+
+```mermaid
+flowchart LR
+    subgraph Talent["2028年度 高度専門人材目標"]
+        direction TB
+        A1["AI高度人材: 1,147名"] -->|約2.6倍増| A2["3,000名"]
+        S1["セキュリティ高度人材: 1,198名"] -->|約1.7倍増| S2["2,000名"]
+    end
+    subgraph RoleShift["人材配置の転換"]
+        direction TB
+        R1["定型コーディング・テスト・保守"] -->|AI駆動開発により余力創出| R2["課題設定・Architecture・FDE・ガバナンス"]
+    end
+    Talent --- RoleShift
+```
 
 を計画。
 

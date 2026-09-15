@@ -46,20 +46,20 @@
 
 ここへAIが横串として入った。
 
-```text
-Strategy / Consulting
-        ↓
-Business Process / Domain Knowledge
-        ↓
-AI / Agent / Modernization
-        ↓
-Cloud / Existing Systems / Data
-        ↓
-Security / Governance
-        ↓
-Production Operation
-        ↓
-Recurring Service / Business Outcome
+```mermaid
+flowchart TD
+    subgraph ValueChain["NRIの統合AXバリューチェーン"]
+        direction TB
+        V1["<b>Strategy / Consulting</b><br>経営構想・AXロードマップ・課題定義"]
+        V2["<b>Business Process / Domain Knowledge</b><br>日本企業の暗黙知・業界特化ノウハウ"]
+        V3["<b>AI / Agent / Modernization</b><br>AFT・自律エージェント・基幹連携"]
+        V4["<b>Cloud / Existing Systems / Data</b><br>マルチクラウド・勘定系/基幹系・データ基盤"]
+        V5["<b>Security / Governance</b><br>AgenticBlue・統制ログ・3層ガードレール"]
+        V6["<b>Production Operation</b><br>ミッションクリティカル長期本番運用"]
+        V7["<b>Recurring Service / Business Outcome</b><br>共同利用型プラットフォーム・高収益化"]
+
+        V1 --> V2 --> V3 --> V4 --> V5 --> V6 --> V7
+    end
 ```
 
 NRIはAI専門会社へ変わるのではなく、**従来の強みをAIで再構成する**方向を選んでいる。

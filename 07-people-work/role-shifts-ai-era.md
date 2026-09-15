@@ -9,6 +9,34 @@ AIによってNRIの仕事が一律に減るとは考えにくい。公開情報
 
 NRI自身も、AI駆動開発で生まれた余力を上流工程や新規案件へ移す考えを投資家へ説明している。
 
+```mermaid
+flowchart LR
+    subgraph Devaluing["価値が低下しやすい領域 (AI代替・自動化)"]
+        direction TB
+        D1["定型コーディング / ボイラープレート実装"]
+        D2["定型テストケース作成・実行"]
+        D3["議事録・進捗転記・定型資料作成"]
+        D4["Runbook通りの一次監視・レポート作成"]
+        D5["情報中継・伝達だけのPM/PMO"]
+    end
+
+    subgraph Shift["人材価値の転換"]
+        direction TB
+        S["<b>AI駆動開発による<br>工数創出 & 余力再配置</b><br>⬇<br>専門人材の高度化"]
+    end
+
+    subgraph Valuing["価値が向上しやすい領域 (人間に残る中核)"]
+        direction TB
+        V1["<b>Problem Framing</b> (真の課題設定・目的定義)"]
+        V2["<b>Architecture</b> (複合モデル・基幹・セキュリティ統合)"]
+        V3["<b>Domain Context</b> (業界商習慣・暗黙知の抽出)"]
+        V4["<b>AI Governance</b> (権限・監査・3層ガードレール)"]
+        V5["<b>Outcome & Accountability</b> (ROI保証・最終判断責任)"]
+    end
+
+    Devaluing --> Shift --> Valuing
+```
+
 ---
 
 ## 1. 価値が下がりやすい仕事
@@ -123,37 +151,24 @@ NRIの研究では、人の役割を「AIをマネジメントする」方向へ
 
 ## 3. Software Engineerはどう変わるか
 
-### Before
+### Before / After
 
-```text
-Requirement
-   ↓
-Design
-   ↓
-Coding
-   ↓
-Test
-   ↓
-Release
-```
+```mermaid
+flowchart LR
+    subgraph Before["従来型開発 (人間主導の直列工程)"]
+        direction TB
+        B1["要件定義"] --> B2["設計"] --> B3["コーディング<br>(人間が実装)"] --> B4["テスト<br>(人間が検証)"] --> B5["リリース"]
+    end
 
-人間が各工程を順番に実行。
-
-### After
-
-```text
-Problem / Requirement
-        ↓
-Architecture & Constraints
-        ↓
-AI Agent / Coding Agent
-        ↓
-Human Review / Verification
-        ↓
-Automated Test / Security / Policy
-        ↓
-Production Feedback
-        ↺
+    subgraph After["AI駆動開発 (エージェント協調・ループ型)"]
+        direction TB
+        A1["課題定義 / 制約設計<br><b>(人間)</b>"] --> A2["Architecture決定<br><b>(人間)</b>"]
+        A2 --> A3["AI / Coding Agent<br><b>(自律生成)</b>"]
+        A3 --> A4["レビュー & 判断<br><b>(人間)</b>"]
+        A4 --> A5["自動テスト / セキュリティ監査<br><b>(CI/CD)</b>"]
+        A5 --> A6["本番運用 & 評価フィードバック"]
+        A6 -.->|改善フィードバック| A3
+    end
 ```
 
 人間の役割は「書く」から、

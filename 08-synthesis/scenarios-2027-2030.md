@@ -13,6 +13,21 @@ NRIの2027〜2030年は、AIモデルの性能より、**AX案件をどこまで
 2. **Bull: NRI becomes a leading enterprise AI transformation platform in Japan**
 3. **Bear: AI commoditizes SI value faster than NRI changes its business model**
 
+```mermaid
+flowchart TD
+    Current["<b>2026年 現在地</b><br>国内高収益基盤 ＋ AX実装・AFT開始"]
+
+    Current -->|基幹・業務との接続成功<br>標準的AXインテグレーター化| S_Base["<b>Scenario A: Base Case</b><br>『高信頼AXインテグレーター』<br>・AI売上拡大 & 国内利益率維持<br>・AFT定着・セキュリティ成長"]
+    
+    Current -->|AFT知見の資産化 &<br>業界共通Agent基盤への昇華| S_Bull["<b>Scenario B: Bull Case</b><br>『Enterprise AI Operating Layer』<br>・共同利用型AIプラットフォーム化<br>・リカーリング収益 & 利益率大幅上振れ"]
+    
+    Current -->|AI標準化によるSI工数蒸発 &<br>価格下落・再配置の遅れ| S_Bear["<b>Scenario C: Bear Case</b><br>『従来型SIerのコモディティ化』<br>・工数削減が値下げ要求に直結<br>・個別受託脱却失敗・海外再建遅延"]
+
+    style S_Base fill:#e3f2fd,stroke:#1976d2
+    style S_Bull fill:#e8f5e9,stroke:#388e3c
+    style S_Bear fill:#ffebee,stroke:#d32f2f
+```
+
 ---
 
 ## Scenario A — Base case
@@ -68,16 +83,12 @@ NRIが個別AI導入支援から一段上がり、**業界別AIサービス/Agen
 
 AFT案件で得た知見が、
 
-```text
-Customer-specific knowledge
-        ↓
-Reusable agent pattern
-        ↓
-Industry common asset
-        ↓
-Shared platform
-        ↓
-Recurring revenue
+```mermaid
+flowchart LR
+    K1["<b>Customer-specific knowledge</b><br>(個別顧客の暗黙知・業務)"] --> K2["<b>Reusable agent pattern</b><br>(共通エージェントパターン)"]
+    K2 --> K3["<b>Industry common asset</b><br>(業界共通資産)"]
+    K3 --> K4["<b>Shared platform</b><br>(共同利用型基盤)"]
+    K4 --> K5["<b>Recurring revenue</b><br>(高収益リカーリング)"]
 ```
 
 へ転換される。

@@ -1,6 +1,6 @@
 # Official Sources / NRI一次情報
 
-最終更新: 2026-09-15
+最終更新: 2026-09-20
 
 このファイルは、本リポジトリで使用するNRI公式の一次情報を整理する。
 
@@ -18,15 +18,17 @@
 | 2026-05-28 | 機関投資家スモールミーティング 第2部 Q&A | IR / Q&A | AI駆動開発、工数削減、価格モデル、人員・パートナー構造 | https://ir.nri.com/jp/ir/library/smallmtg.html |
 | 2026-05-28 | The AI-Augmented Society: 203X | 調査 / レポート | NRIが描くAI拡張社会の中長期像 | https://www.nri.com/jp/knowledge/report/20260528_1.html |
 | 2026-06 | 第61回定時株主総会 招集ご通知 | 株主向け | FY2025総括、減損への認識、新中計の株主向け説明 | https://ir.nri.com/jp/ir/stock/meeting.html |
+| 2026-06-30 | コーポレート・ガバナンスに関する報告書 | IR / ガバナンス | 現行機関設計、任意委員会、取締役会実効性評価、報酬、独立性 | https://www.nri.com/content/900038246.pdf |
 | 2026-06-19 | 柳澤花芽「AI活用経営と多様性」 | 社長発信 | AIを経営資本・パートナーとして捉える経営観 | https://www.nri.com/jp/media/journal/20260619.html |
 | 2026-07-30 | 2027年3月期 第1四半期決算 | IR / 決算 | 中計初期進捗、AIコンサル案件、生産革新、セキュリティ需要 | https://ir.nri.com/jp/ir/library/financial.html |
 | 2026-08-03 | NRI AFT（AI Field Transformer）提供開始 | ニュースリリース | FDE型のAI変革支援、現場実装、ROI検証 | https://www.nri.com/jp/news/newsrelease/20260803_1.html |
 | 2026-08-20 | 鳩宿潤二「AI時代における企業の品格」 | 経営サイド発信 | AIの利用判断、ガバナンス、企業責任 | https://www.nri.com/jp/media/journal/20260820.html |
 | 2026-08-27 | エマージングテクノロジーに関するセキュリティガバナンス構築支援 | ニュースリリース | AI等の新技術に対するガバナンス事業 | https://www.nri.com/jp/news/newsrelease/20260827_1.html |
+| 2026-09-01 | 統合レポート2026 | IR / 統合報告 | ガバナンス鼎談、取締役会・諮問委員会活動、実効性評価、報酬制度 | https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf |
 
 ## 常設ページ
 
-### 主要判断の直接参照先（2026-09-15再確認）
+### 主要判断の直接参照先（2026-09-20再確認）
 
 ページ番号は資料に印字された番号。URLの `#page` は表紙を含むPDFのページ位置を指定する。
 
@@ -36,6 +38,9 @@
 | 1Q連結・国内業績とコンサル部門 | [2027年3月期1Q決算説明会資料 pp.3–4](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf#page=4) | 連結増益とコンサル減益を併記して評価する |
 | 2028年度の売上・利益目標 | [中期経営計画 p.17](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf#page=18) | 売上9,500億円・営業利益2,000億円は会社計画 |
 | AFT提供開始 | [2026-08-03ニュースリリース](https://www.nri.com/jp/news/newsrelease/20260803_1.html) | 提供開始の根拠。第三者によるROI検証とは区別する |
+| 取締役会・諮問委員会の活動 | [統合レポート2026 pp.131–133](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=132) | グローバル戦略、買収・出資、グループガバナンス等を取締役会で審議。指名・報酬委員会の審議内容も確認できる |
+| 取締役会実効性評価 | [統合レポート2026 pp.135–136](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=136) | グローバル戦略の長期審議、グループ会社リスクの早期報告、中長期リスク予兆等が改善課題 |
+| グローバル事業のガバナンス振り返り | [統合レポート2026 ガバナンス鼎談 pp.118–121](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=119) | 社外取締役の発言として、グローバル事業をより早く深く議論すべきだったとの振り返りを確認 |
 
 この表は今回確認した主要論点の範囲を示す。全資料・全外部情報の再検証を意味しない。
 
@@ -47,6 +52,10 @@
 | NRI 株主総会 | 招集通知・株主向け資料 | https://ir.nri.com/jp/ir/stock/meeting.html |
 | NRI AI | NRIグループのAI関連施策・コンテンツ | https://ai.nri.com/ |
 | NRI 社長メッセージ | 経営の基本姿勢 | https://www.nri.com/jp/company/message.html |
+| NRI コーポレート・ガバナンス | 現行体制、委員会・会議体 | https://www.nri.com/jp/company/co_governance/governance.html |
+| NRI 統合レポート | ガバナンス、戦略、人的資本等 | https://ir.nri.com/jp/ir/library/report.htm |
+
+ガバナンス章の詳細な出典・ページ索引は [`governance-sources.md`](./governance-sources.md) を参照。
 
 ## 数字を読む際の注意
 

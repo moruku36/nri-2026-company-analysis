@@ -4,7 +4,8 @@
 
 > 株式会社野村総合研究所（NRI）の2026年の方向性・経営・AI/AX戦略・市場評価を、公開情報から横断的に分析するリサーチリポジトリ。  
 > **基準日: 2026-09-15**  
-> **Public-safe:** 非公開の社内情報、顧客情報、個人情報、勤務事情等は含めない。
+> **Public-safe:** 非公開の社内情報、顧客情報、個人情報、勤務事情等は含めない。  
+> **Governance update:** 2026-09-20
 
 ## Final conclusion
 
@@ -29,6 +30,7 @@
 - AI駆動開発で自社の生産性も変える
 - AI普及で増えるセキュリティ/ガバナンス需要を取り込む
 - 海外は規模拡大から収益性重視へ修正する
+- 海外再建と並行して、グループガバナンス・リスク報告の早期化を進める
 - AI投資と高ROE・株主還元を同時に実現する
 
 一方で、2026年9月時点では **戦略から実装へ移った段階**。
@@ -135,7 +137,17 @@ NRI SecureのAgenticBlueやAIガバナンス支援は、NRIが「AI導入」と�
 
 NRIは「安定国内SIer」というより、**高利益率・高ROE・AI成長を期待される品質成長株**として評価されている。
 
-### 8. 最大の競争相手は一社ではない
+### 8. ガバナンスは海外再建とセットで見る
+
+統合レポート2026では、取締役会の実効性は概ね確保されているとする一方、**重要議題の審議の深さ、グローバル戦略、グループ会社のリスク・懸念点の早期報告、中長期リスクの予兆把握**に改善余地があると自己評価している。
+
+また、ガバナンス鼎談では社外取締役から、グローバル事業についてもっと早い段階で現実を深く直視し、将来戦略を議論すべきだったとの振り返りが示された。
+
+海外減損との直接の因果関係は公開情報から断定できないが、2027年3月期以降は**海外の損益だけでなく監督プロセスの改善**も確認すべき。
+
+➡️ [`04-governance/README.md`](./04-governance/README.md)
+
+### 9. 最大の競争相手は一社ではない
 
 - Accenture: FDE / Agentic AI / Global scale
 - NTT DATA: 国内大企業・金融・公共 + Global IT
@@ -146,7 +158,7 @@ NRIは「安定国内SIer」というより、**高利益率・高ROE・AI成長
 
 NRIは全戦場で勝つ必要はなく、**日本企業の重要業務・基幹・運用・セキュリティをまとめて扱う複合戦**へ持ち込むことが重要。
 
-### 9. 人材の価値は下流作業から設計・判断へ移る
+### 10. 人材の価値は下流作業から設計・判断へ移る
 
 NRIは2028年度までに、
 
@@ -171,7 +183,7 @@ flowchart LR
 
 AIで下流工数を減らし、人材を上流へ移す方向が明確。
 
-### 10. 2027年は「何を始めたか」から「何を生んだか」へ
+### 11. 2027年は「何を始めたか」から「何を生んだか」へ
 
 2026年は戦略とサービスを打ち出した年。
 
@@ -216,7 +228,14 @@ AIで下流工数を減らし、人材を上流へ移す方向が明確。
 - [`03-ai-ax/internal-ai-transformation.md`](./03-ai-ax/internal-ai-transformation.md)
 - [`03-ai-ax/ai-security-governance.md`](./03-ai-ax/ai-security-governance.md)
 
-### 5. 競合
+### 5. ガバナンス
+
+- [`04-governance/README.md`](./04-governance/README.md)
+- [`04-governance/board-committees.md`](./04-governance/board-committees.md)
+- [`04-governance/effectiveness-risk.md`](./04-governance/effectiveness-risk.md)
+- [`04-governance/investor-governance-view.md`](./04-governance/investor-governance-view.md)
+
+### 6. 競合
 
 - [`05-competition/competitor-map.md`](./05-competition/competitor-map.md)
 - [`05-competition/nri-relative-position.md`](./05-competition/nri-relative-position.md)
@@ -225,7 +244,7 @@ AIで下流工数を減らし、人材を上流へ移す方向が明確。
 - [`05-competition/ibm-deloitte.md`](./05-competition/ibm-deloitte.md)
 - [`05-competition/fujitsu-hitachi.md`](./05-competition/fujitsu-hitachi.md)
 
-### 6. 外部評価
+### 7. 外部評価
 
 - [`06-external-view/self-image-vs-outside-view.md`](./06-external-view/self-image-vs-outside-view.md)
 - [`06-external-view/investor-view.md`](./06-external-view/investor-view.md)
@@ -233,7 +252,7 @@ AIで下流工数を減らし、人材を上流へ移す方向が明確。
 - [`06-external-view/employee-reputation.md`](./06-external-view/employee-reputation.md)
 - [`06-external-view/brand-talent-market.md`](./06-external-view/brand-talent-market.md)
 
-### 7. 人材 / キャリア
+### 8. 人材 / キャリア
 
 - [`07-people-work/talent-organization.md`](./07-people-work/talent-organization.md)
 - [`07-people-work/role-shifts-ai-era.md`](./07-people-work/role-shifts-ai-era.md)
@@ -278,6 +297,7 @@ NRIが成功する場合、2030年には「AI案件の多いSIer」ではなく�
 ## Research policy / sources
 
 - [`sources/official-sources.md`](./sources/official-sources.md) — NRI一次情報
+- [`sources/governance-sources.md`](./sources/governance-sources.md) — ガバナンス一次情報・該当ページ
 - [`sources/ai-frontier-sources.md`](./sources/ai-frontier-sources.md) — AI/Frontier model関連
 - [`sources/competitor-sources.md`](./sources/competitor-sources.md) — 競合一次情報
 - [`sources/external-view-sources.md`](./sources/external-view-sources.md) — 外部評価
@@ -286,6 +306,6 @@ NRIが成功する場合、2030年には「AI案件の多いSIer」ではなく�
 
 ## Status
 
-**Research v1 completed — 2026-09-15**
+**Research v1 completed — 2026-09-15 / Governance chapter updated — 2026-09-20**
 
 今後は [`08-synthesis/watchlist.md`](./08-synthesis/watchlist.md) に沿って、四半期決算・AI発表・競合動向を差分更新する。

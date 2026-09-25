@@ -41,7 +41,7 @@
 
 ➡️ **最初に読む:** [`08-synthesis/final-assessment.md`](./08-synthesis/final-assessment.md)
 
-➡️ **再利用用フォーマット:** [`templates/company-analysis-template.md`](./templates/company-analysis-template.md)（2026年公開のNRI資料を参考にした汎用企業分析テンプレート）
+➡️ **PowerPointスライド雛形:** [`templates/company-analysis-slides-template.pptx`](./templates/company-analysis-slides-template.pptx)（NRIの2026年公開資料を参考にした、編集可能な汎用テンプレート。NRI公式テンプレートではありません）
 
 ```mermaid
 flowchart TD

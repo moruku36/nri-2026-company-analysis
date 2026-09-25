@@ -1,6 +1,6 @@
 # Role Shifts in the AI Era — AIで仕事の価値はどこへ移るか
 
-> 基準日: 2026-09-15  
+> 基準日: 2026-09-25  
 > Public information only.
 
 ## Executive take

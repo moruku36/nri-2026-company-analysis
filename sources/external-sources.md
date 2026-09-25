@@ -1,6 +1,6 @@
 # External Sources / 市場・報道・第三者情報
 
-最終更新: 2026-09-15
+最終更新: 2026-09-25
 
 このファイルは、NRI自身の開示ではない外部情報を整理する。
 
@@ -11,6 +11,7 @@
 | ソース | 用途 | URL |
 |---|---|---|
 | Yahoo!ファイナンス NRI（4307）時系列 | 日次OHLC、年初来高安、直近株価 | https://finance.yahoo.co.jp/quote/4307.T/history |
+| みんかぶ NRI（4307）時系列 | 2026-09-24までの日次株価確認 | https://minkabu.jp/stock/4307/daily_bar |
 | Yahoo!ファイナンス NRI（4307） | 時価総額、予想PER、PBR、EPS、配当等の市場スナップショット | https://finance.yahoo.co.jp/quote/4307.T |
 | IRBANK 4307 | 株価と適時開示の時系列突合 | https://irbank.net/4307 |
 | StockWeather / Traders Web系株価履歴 | 7月末〜8月のイベント日株価確認 | 各株価履歴ページ |

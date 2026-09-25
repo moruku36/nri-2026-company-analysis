@@ -1,6 +1,6 @@
 # Talent / Organization — NRIの人材戦略と組織変化
 
-> 基準日: 2026-09-15  
+> 基準日: 2026-09-25  
 > Public information only.
 
 ## Executive take

@@ -1,6 +1,6 @@
 # IBM / Deloitte — 2026 Competitive Analysis
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 この2社はNRIと競合するが、攻め方が異なる。
 

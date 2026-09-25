@@ -1,6 +1,6 @@
 # Strengths / Risks — NRI 2026
 
-> 基準日: 2026-09-15
+> 基準日: 2026-09-25
 
 ## Executive take
 

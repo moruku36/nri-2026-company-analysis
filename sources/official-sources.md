@@ -1,6 +1,6 @@
 # Official Sources / NRI一次情報
 
-最終更新: 2026-09-20
+最終更新: 2026-09-25
 
 このファイルは、本リポジトリで使用するNRI公式の一次情報を整理する。
 
@@ -24,11 +24,14 @@
 | 2026-08-03 | NRI AFT（AI Field Transformer）提供開始 | ニュースリリース | FDE型のAI変革支援、現場実装、ROI検証 | https://www.nri.com/jp/news/newsrelease/20260803_1.html |
 | 2026-08-20 | 鳩宿潤二「AI時代における企業の品格」 | 経営サイド発信 | AIの利用判断、ガバナンス、企業責任 | https://www.nri.com/jp/media/journal/20260820.html |
 | 2026-08-27 | エマージングテクノロジーに関するセキュリティガバナンス構築支援 | ニュースリリース | AI等の新技術に対するガバナンス事業 | https://www.nri.com/jp/news/newsrelease/20260827_1.html |
+| 2026-08-26 | IR Day 2026 セグメント別成長戦略・質疑応答 | IR / 事業説明 | コンサル、金融IT、産業IT、IT基盤の成長方針、AI-IP、AIセキュリティの商用化状況 | https://ir.nri.com/jp/ir/library/outline.html |
 | 2026-09-01 | 統合レポート2026 | IR / 統合報告 | ガバナンス鼎談、取締役会・諮問委員会活動、実効性評価、報酬制度 | https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf |
+| 2026-09-16 | 三菱重工とAI等を活用した業務プロセス改革の共同検討・実践を開始 | お知らせ | 技術動向調査、AIガバナンス策定、共同アプリ開発・実装・定着支援 | https://www.nri.com/jp/news/info/20260916_1.html |
+| 2026-09-17 | フロンティアAI対応脆弱性診断のデータ取り扱い体制を強化 | お知らせ | Amazon Bedrockを用いた国内でのデータ処理完結 | https://www.nri.com/jp/news/info/20260917_1.html |
 
 ## 常設ページ
 
-### 主要判断の直接参照先（2026-09-20再確認）
+### 主要判断の直接参照先（2026-09-25再確認）
 
 ページ番号は資料に印字された番号。URLの `#page` は表紙を含むPDFのページ位置を指定する。
 
@@ -38,6 +41,9 @@
 | 1Q連結・国内業績とコンサル部門 | [2027年3月期1Q決算説明会資料 pp.3–4](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf#page=4) | 連結増益とコンサル減益を併記して評価する |
 | 2028年度の売上・利益目標 | [中期経営計画 p.17](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf#page=18) | 売上9,500億円・営業利益2,000億円は会社計画 |
 | AFT提供開始 | [2026-08-03ニュースリリース](https://www.nri.com/jp/news/newsrelease/20260803_1.html) | 提供開始の根拠。第三者によるROI検証とは区別する |
+| AI-IP・AIセキュリティの商用状況 | [2026 IR Day質疑応答](https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/010/link/260826pre_qa.pdf#page=4) | AI-IPは案件獲得・中計売上増に寄与するとの会社見通し。AI-IP売上の独立開示はなく、脆弱性診断サービスは売上計上済みだが顧客数は非開示 |
+| 三菱重工との業務改革実装支援 | [2026-09-16お知らせ](https://www.nri.com/jp/news/info/20260916_1.html) | 共同検討・実装支援の開始。成果指標は未開示 |
+| フロンティアAI診断の国内処理 | [2026-09-17お知らせ](https://www.nri.com/jp/news/info/20260917_1.html) | Amazon Bedrock活用と国内完結のデータ処理体制。サービス効果の定量評価とは区別 |
 | 取締役会・諮問委員会の活動 | [統合レポート2026 pp.131–133](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=132) | グローバル戦略、買収・出資、グループガバナンス等を取締役会で審議。指名・報酬委員会の審議内容も確認できる |
 | 取締役会実効性評価 | [統合レポート2026 pp.135–136](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=136) | グローバル戦略の長期審議、グループ会社リスクの早期報告、中長期リスク予兆等が改善課題 |
 | グローバル事業のガバナンス振り返り | [統合レポート2026 ガバナンス鼎談 pp.118–121](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf#page=119) | 社外取締役の発言として、グローバル事業をより早く深く議論すべきだったとの振り返りを確認 |

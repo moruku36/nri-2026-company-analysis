@@ -1,6 +1,6 @@
 # Brand / Talent Market — 就職・転職市場でのNRIブランド
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

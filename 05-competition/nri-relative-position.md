@@ -1,6 +1,6 @@
 # NRI Relative Position — 勝ち筋・弱点・競争シナリオ
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

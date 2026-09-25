@@ -1,6 +1,6 @@
 # Engineer Community — 技術者コミュニティから見たNRI
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

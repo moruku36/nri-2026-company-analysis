@@ -1,6 +1,6 @@
 # Public Reputation — 一般公開情報上のNRIイメージ
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

@@ -14,3 +14,8 @@ date,close_yen,event,source
 2026-09-09,4818,"9月調整局面","Yahoo Finance"
 2026-09-11,4901,"9月14日前営業日","Yahoo Finance"
 2026-09-14,5206,"レポート基準日前の最新完了取引日","Yahoo Finance"
+2026-09-15,5170,"9月中旬終値","Minkabu historical data https://minkabu.jp/stock/4307/daily_bar"
+2026-09-16,5097,"9月中旬終値","Minkabu historical data https://minkabu.jp/stock/4307/daily_bar"
+2026-09-17,5155,"9月中旬終値","Minkabu historical data https://minkabu.jp/stock/4307/daily_bar"
+2026-09-18,5156,"9月中旬終値","Minkabu historical data https://minkabu.jp/stock/4307/daily_bar"
+2026-09-24,5034,"2026-09-25時点で確認できた最新終値","Minkabu historical data https://minkabu.jp/stock/4307/daily_bar"

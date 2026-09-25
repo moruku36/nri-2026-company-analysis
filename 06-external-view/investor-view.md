@@ -1,6 +1,6 @@
 # Investor View — 投資家から見たNRI
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

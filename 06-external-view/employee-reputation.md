@@ -1,6 +1,6 @@
 # Employee Reputation — 社員・元社員口コミから見るNRI
 
-基準日: 2026-09-15
+基準日: 2026-09-25
 
 ## Executive take
 

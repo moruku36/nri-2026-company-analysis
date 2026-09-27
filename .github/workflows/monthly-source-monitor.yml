@@ -1,0 +1,61 @@
+name: Monthly NRI Source Monitor
+
+on:
+  schedule:
+    # 09:15 JST on the first day of every month (00:15 UTC)
+    - cron: "15 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: monthly-nri-source-monitor
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run source monitor
+        id: monitor
+        run: python scripts/nri_source_monitor.py
+
+      - name: Commit generated monitor state
+        run: |
+          if git diff --quiet -- data/source-monitor-state.json sources/latest-source-monitor.md; then
+            echo "No generated file changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-monitor-state.json sources/latest-source-monitor.md
+          git commit -m "chore: refresh monthly source monitor"
+          git push
+
+      - name: Create or refresh review issue
+        if: steps.monitor.outputs.needs_review == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MONTH: ${{ steps.monitor.outputs.month }}
+        run: |
+          title="[Source Monitor] ${MONTH} NRI company-analysis update candidates"
+          issue_number="$(gh issue list --state open --search "${title} in:title" --json number,title --jq '.[] | select(.title == "'"${title}"'") | .number' | head -n1)"
+
+          if [ -n "${issue_number}" ]; then
+            gh issue edit "${issue_number}" --body-file /tmp/nri-source-monitor-issue.md
+          else
+            gh issue create --title "${title}" --body-file /tmp/nri-source-monitor-issue.md
+          fi

@@ -304,6 +304,8 @@ def main():
             if not items:
                 row["status"] = "warning"
                 row["message"] = "0 matched links"
+                if source.get("priority") == "critical":
+                    failures.append(row)
             if initialized:
                 for item in items:
                     if item["url"] not in previously_seen:
@@ -345,7 +347,7 @@ def main():
     save_json(a.state, new_state)
     Path(a.issue_body).write_text(build_issue(ts, candidates, failures), encoding="utf-8")
 
-    needs_review = initialized and bool(candidates or failures)
+    needs_review = bool(failures) or (initialized and bool(candidates))
     write_outputs(needs_review, ts, len(candidates), len(failures))
     print(json.dumps({
         "initialized_before": initialized,

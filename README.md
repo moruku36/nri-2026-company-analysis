@@ -308,6 +308,21 @@ NRIが成功する場合、2030年には「AI案件の多いSIer」ではなく�
 - [`sources/people-work-sources.md`](./sources/people-work-sources.md) — 人材/仕事関連
 - [`sources/research-log.md`](./sources/research-log.md) — 調査履歴・限界
 
+
+## Automated monthly refresh
+
+このリポジトリは GitHub Actions の **Monthly NRI Source Monitor** で月次更新候補を自動収集する。
+
+- 毎月1日 09:15 JST に18ソースを巡回
+- NRIの決算・中計・IR Day・統合レポート・有価証券報告書・ニュース・AI・ガバナンスを優先監視
+- OpenAI / Anthropic と主要競合（Accenture、NTT DATA、IBM、Deloitte、Fujitsu、Hitachi）も差分確認
+- 実行結果は [sources/latest-source-monitor.md](./sources/latest-source-monitor.md) と [data/source-monitor-state.json](./data/source-monitor-state.json) に自動反映
+- 新規一次情報または重要ソース取得失敗を検知した場合、レビュー用GitHub Issueを自動生成
+- 分析本文やFinal conclusionは自動上書きせず、一次情報を検証してからEvidenceと該当章だけを更新する
+- GitHub Actions画面から手動実行も可能
+
+監視設定は [.github/source-monitor.json](./.github/source-monitor.json)、実装は [scripts/nri_source_monitor.py](./scripts/nri_source_monitor.py) を参照。
+
 ## Status
 
 **Research v1 completed — 2026-09-15 / Governance chapter updated — 2026-09-20**

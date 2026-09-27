@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "nri-financial",
+      "name": "NRI IR 決算短信・説明会資料",
+      "url": "https://ir.nri.com/jp/ir/library/financial.html",
+      "priority": "critical",
+      "patterns": ["2027年3月期", "2028年3月期", "決算", "質疑応答", "financial"],
+      "targets": ["sources/official-sources.md", "02-financial-market/financial-performance.md", "08-synthesis/watchlist.md", "README.md"],
+      "max_items": 40
+    },
+    {
+      "id": "nri-business-plan",
+      "name": "NRI 中期経営計画",
+      "url": "https://ir.nri.com/jp/ir/library/businessplan.html",
+      "priority": "critical",
+      "patterns": ["中期経営", "2026", "2027", "2028", "medium", "business"],
+      "targets": ["sources/official-sources.md", "01-management/strategy-2026-2028.md", "08-synthesis/final-assessment.md"],
+      "max_items": 30
+    },
+    {
+      "id": "nri-ir-day",
+      "name": "NRI IR Day・事業説明会",
+      "url": "https://ir.nri.com/jp/ir/library/outline.html",
+      "priority": "high",
+      "patterns": ["IR Day", "事業説明", "2026", "2027", "outline", "質疑応答"],
+      "targets": ["sources/official-sources.md", "01-management", "03-ai-ax", "08-synthesis"],
+      "max_items": 35
+    },
+    {
+      "id": "nri-integrated-report",
+      "name": "NRI 統合レポート",
+      "url": "https://ir.nri.com/jp/ir/library/report.htm",
+      "priority": "high",
+      "patterns": ["統合レポート20(26|27|28)", "ar20(26|27|28)", "annual"],
+      "targets": ["sources/official-sources.md", "sources/governance-sources.md", "04-governance", "07-people-work", "08-synthesis"],
+      "max_items": 20
+    },
+    {
+      "id": "nri-securities-report",
+      "name": "NRI 有価証券報告書",
+      "url": "https://ir.nri.com/jp/ir/library/securities.html",
+      "priority": "high",
+      "patterns": ["2026", "2027", "2028", "有価証券", "半期報告", "securities"],
+      "targets": ["sources/official-sources.md", "02-financial-market", "04-governance", "08-synthesis"],
+      "max_items": 30
+    },
+    {
+      "id": "nri-small-meeting",
+      "name": "NRI スモールミーティング",
+      "url": "https://ir.nri.com/jp/ir/library/smallmtg.html",
+      "priority": "high",
+      "patterns": ["2026", "2027", "スモールミーティング", "質疑応答", "small"],
+      "targets": ["sources/official-sources.md", "01-management", "02-financial-market", "03-ai-ax", "08-synthesis"],
+      "max_items": 30
+    },
+    {
+      "id": "nri-shareholders",
+      "name": "NRI 株主総会",
+      "url": "https://ir.nri.com/jp/ir/stock/meeting.html",
+      "priority": "normal",
+      "patterns": ["2026", "2027", "2028", "株主総会", "招集", "meeting"],
+      "targets": ["sources/official-sources.md", "04-governance", "08-synthesis"],
+      "max_items": 25
+    },
+    {
+      "id": "nri-news",
+      "name": "NRI ニュースリリース・お知らせ",
+      "url": "https://www.nri.com/jp/news",
+      "priority": "critical",
+      "patterns": ["/jp/news/(newsrelease|info)/20(26|27|28)\\d{4}_\\d+\\.html", "AI", "AX", "セキュリティ", "業務改革", "提携", "共同"],
+      "exclude_patterns": ["/event/"],
+      "targets": ["sources/official-sources.md", "sources/ai-frontier-sources.md", "01-management", "03-ai-ax", "08-synthesis"],
+      "max_items": 50
+    },
+    {
+      "id": "nri-ai-portal",
+      "name": "NRI AI Portal",
+      "url": "https://ai.nri.com/",
+      "priority": "high",
+      "patterns": ["AI", "AX", "Claude", "Agent", "エージェント", "OpenAI", "Anthropic", "Bedrock", "Gemini", "AFT"],
+      "targets": ["sources/ai-frontier-sources.md", "03-ai-ax", "08-synthesis/watchlist.md"],
+      "max_items": 40
+    },
+    {
+      "id": "nri-governance",
+      "name": "NRI コーポレート・ガバナンス",
+      "url": "https://www.nri.com/jp/company/co_governance/governance.html",
+      "priority": "normal",
+      "patterns": ["ガバナンス", "governance", "取締役", "委員会", "報告書", "2026", "2027", "2028"],
+      "targets": ["sources/governance-sources.md", "04-governance", "08-synthesis/watchlist.md"],
+      "max_items": 25
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News / model updates",
+      "url": "https://openai.com/news/",
+      "priority": "high",
+      "patterns": ["/index/", "GPT", "model", "agent", "API", "security", "safety"],
+      "targets": ["sources/ai-frontier-sources.md", "03-ai-ax/frontier-model-impact.md", "03-ai-ax/timeline-2026.md", "08-synthesis/watchlist.md"],
+      "max_items": 40
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "priority": "high",
+      "patterns": ["/news/", "Claude", "model", "agent", "enterprise", "security", "safety"],
+      "targets": ["sources/ai-frontier-sources.md", "03-ai-ax/frontier-model-impact.md", "03-ai-ax/timeline-2026.md", "08-synthesis/watchlist.md"],
+      "max_items": 40
+    },
+    {
+      "id": "accenture-news",
+      "name": "Accenture Newsroom",
+      "url": "https://newsroom.accenture.com/",
+      "priority": "normal",
+      "patterns": ["AI", "agent", "artificial intelligence", "generative", "OpenAI", "Google Cloud", "ServiceNow", "data"],
+      "targets": ["sources/competitor-sources.md", "05-competition/accenture.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    },
+    {
+      "id": "nttdata-news",
+      "name": "NTT DATA News",
+      "url": "https://www.nttdata.com/global/en/news/",
+      "priority": "normal",
+      "patterns": ["AI", "agent", "artificial intelligence", "generative", "cloud", "security", "data"],
+      "targets": ["sources/competitor-sources.md", "05-competition/ntt-data.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    },
+    {
+      "id": "ibm-news",
+      "name": "IBM Newsroom",
+      "url": "https://newsroom.ibm.com/",
+      "priority": "normal",
+      "patterns": ["AI", "agent", "watsonx", "artificial intelligence", "cloud", "security", "governance"],
+      "targets": ["sources/competitor-sources.md", "05-competition/ibm-deloitte.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    },
+    {
+      "id": "deloitte-news",
+      "name": "Deloitte Global Press Room",
+      "url": "https://www.deloitte.com/global/en/about/press-room.html",
+      "priority": "normal",
+      "patterns": ["AI", "agent", "artificial intelligence", "generative", "OpenAI", "Google Cloud", "model"],
+      "targets": ["sources/competitor-sources.md", "05-competition/ibm-deloitte.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    },
+    {
+      "id": "fujitsu-research-news",
+      "name": "Fujitsu Research News",
+      "url": "https://portal.research.global.fujitsu.com/news.html",
+      "priority": "normal",
+      "patterns": ["AI", "agent", "Kozuchi", "model", "security", "trust"],
+      "targets": ["sources/competitor-sources.md", "05-competition/fujitsu-hitachi.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    },
+    {
+      "id": "hitachi-press",
+      "name": "Hitachi Press Releases",
+      "url": "https://www.hitachi.com/ja-jp/press/",
+      "priority": "normal",
+      "patterns": ["AI", "Anthropic", "Lumada", "agent", "エージェント", "生成AI", "Physical AI"],
+      "targets": ["sources/competitor-sources.md", "05-competition/fujitsu-hitachi.md", "05-competition/competitor-map.md", "08-synthesis/watchlist.md"],
+      "max_items": 35
+    }
+  ]
+}

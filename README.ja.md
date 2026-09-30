@@ -1,0 +1,338 @@
+# NRI 2026 Company Analysis
+
+[English](README.md) | [日本語](README.ja.md)
+
+公開情報に基づき、NRIの経営、財務、AI・AX戦略、ガバナンス、競合、市場評価を分析するリポジトリです。分析には基準日を設け、月次監視で更新候補を集めます。
+
+---
+
+# NRI 2026 Company Analysis
+
+![NRI 2026 Company Analysis Graphic Recording](./assets/repository-graphic-recording.jpg)
+
+> 株式会社野村総合研究所（NRI）の2026年の方向性・経営・AI/AX戦略・市場評価を、公開情報から横断的に分析するリサーチリポジトリ。  
+> **基準日: 2026-09-25**  
+> **Public-safe:** 非公開の社内情報、顧客情報、個人情報、勤務事情等は含めない。  
+> **Governance update:** 2026-09-20
+
+## Final conclusion
+
+2026年9月25日更新: 8月26日のIR Dayでは、フロンティアAI対応脆弱性診断が既に売上計上され、利用モデルはClaude Opus、導入社数は非開示と説明された。AI-IPは中計の増収に寄与する見通しだが、独立した売上集計はない。OpenAIは9月22日にGPT-6 Sol / Lunaを発表。NRIは9月16日に三菱重工とのAI活用を含む業務プロセス改革の共同検討・実装支援を開始し、17日には同診断の国内データ処理体制を公表した。最新決算は7月30日公表の2027年3月期1Qで、2Q決算発表予定は10月29日。
+
+### まず押さえる3点
+
+| 区分 | 現時点の判断 | 根拠・確認先 |
+|---|---|---|
+| 開示実績 | 連結増収増益だけでAI効果を断定できない。1Qのコンサル部門は増収・減益 | [業績分析](./02-financial-market/financial-performance.md) |
+| 会社目標 | 中計の売上・利益・AI関連KPIは達成済み実績と区別する | [公式資料と確認箇所](./sources/official-sources.md) |
+| 分析上の仮説 | 業務知識と本番運用力がAXの競争力につながる。顧客成果・継続収益で検証する | [総合評価](./08-synthesis/final-assessment.md)・[観測項目](./08-synthesis/watchlist.md) |
+
+本資料の「2026年」は基準日までの動きを指す。2026年度は2027年3月期、2028年度は2029年3月期に対応する。以下の戦略図は会社が目指す方向と筆者の整理であり、矢印は実証済みの因果関係を表さない。
+
+2026年のNRIを一文でまとめると、
+
+> **高収益な国内SI/コンサル企業が、AIを成長事業・開発生産性・人材再配置・セキュリティ需要に横断投入し、「AX企業」へ移行し始めた年。**
+
+戦略の方向性は比較的一貫している。
+
+- 国内の高収益事業を基盤にする
+- AX（AI Transformation）を次の成長領域とする
+- AI駆動開発で自社の生産性も変える
+- AI普及で増えるセキュリティ/ガバナンス需要を取り込む
+- 海外は規模拡大から収益性重視へ修正する
+- 海外再建と並行して、グループガバナンス・リスク報告の早期化を進める
+- AI投資と高ROE・株主還元を同時に実現する
+
+一方で、2026年9月時点では **戦略から実装へ移った段階**。
+
+今後の評価は、AFT/FDE、AI駆動開発、AI関連売上を、実際の顧客成果・利益率・継続収益へ変換できるかで決まる。
+
+➡️ **最初に読む:** [`08-synthesis/final-assessment.md`](./08-synthesis/final-assessment.md)
+
+➡️ **PowerPointスライド雛形:** [`templates/company-analysis-slides-template.pptx`](./templates/company-analysis-slides-template.pptx)（NRIの2026年公開資料を参考にした、編集可能な汎用テンプレート。NRI公式テンプレートではありません）
+
+```mermaid
+flowchart TD
+    subgraph Foundation["国内高収益基盤"]
+        F1["金融ITソリューション<br>(圧倒的収益源・ミッションクリティカル)"]
+        F2["産業IT & IT基盤<br>(流通・製造・通信・クラウド)"]
+    end
+
+    subgraph AX_Transformation["2026-2028 AX変革ドライバー"]
+        direction TB
+        G1["① AIによるビジネス変革<br>(中計2028: 売上3,000億円+ / 投資800億円)"]
+        G2["② デジタルセキュリティ<br>(AIガバナンス・AgenticBlue・売上1,280億円)"]
+        G3["③ 社会共創サービス<br>(独自IP・共同利用型プラットフォーム)"]
+    end
+
+    subgraph Internal["自社生産構造の革新"]
+        P1["AI駆動開発ロードマップ<br>(2028年 適用率100% / 2030年 最適化100%)"]
+        P2["高付加価値領域への人材シフト<br>(コンサル / Architecture / FDE)"]
+    end
+
+    subgraph Output["目指す企業価値 (2028年度)"]
+        O1["売上収益: 9,500億円"]
+        O2["営業利益: 2,000億円 (利益率21.1%)"]
+        O3["高資本効率: ROE 25%水準 & 配当性向40%"]
+    end
+
+    Foundation --> AX_Transformation
+    AX_Transformation --> Internal
+    Internal --> Output
+    Foundation -.-> Output
+```
+
+---
+
+## Key findings
+
+### 1. 2026年の中心テーマはDXではなくAX
+
+2026年4月の中期経営計画（2026–2028）以降、NRIはAIを単なる業務効率化ツールではなく、企業変革そのものを作る経営テーマとして扱っている。
+
+2028年度に向け、AI関連売上3,000億円以上、AI関連投資3年間800億円を掲げる。
+
+### 2. NRIのAI戦略は「モデルを作る」より「企業へ実装する」
+
+NRIが差別化しようとしているのは、
+
+- 業界/業務知識
+- 顧客固有の暗黙知
+- 既存システム
+- クラウド/データ
+- セキュリティ
+- ガバナンス
+- 本番運用
+
+をAIへ接続する能力。
+
+Anthropicとの関係は深い一方、戦略全体はマルチモデル/マルチクラウド型と評価できる。
+
+### 3. 8月のNRI AFTはAI時代のデリバリーモデル再設計
+
+NRI AFT（AI Field Transformer）は、FDEが顧客現場に入り、短いROI検証サイクルを回しながらAIを実装・運用する。
+
+ただし2026年にはAccenture等も大規模FDE体制へ進出しており、**FDEという形式自体は差別化にならない**。
+
+NRIの勝負は、日本企業の業務・基幹系・規制・運用をどれだけ深く理解できるかにある。
+
+### 4. AIは売上だけでなくNRI自身の利益率を変える
+
+AI駆動開発により、設計・コーディング・テスト等の工数削減を進める。
+
+重要なのは工数削減そのものではなく、その余力を
+
+- 上流
+- コンサル
+- 提案
+- Architecture
+- FDE
+- 共通サービス
+
+へ再配置し、価格下落ではなく利益/成長へ変換できるか。
+
+### 5. セキュリティはAI普及の副次需要ではなく中核事業
+
+AIエージェント普及により、Identity、権限、データ保護、監査、Agentの判断記録等が重要になる。
+
+NRI SecureのAgenticBlueやAIガバナンス支援は、NRIが「AI導入」と「AIを安全に運用する仕組み」の両方を取りにいく動き。
+
+### 6. 海外は最大の経営課題
+
+2026年3月期の大規模減損を受け、海外戦略は規模拡大から収益性改善へ修正された。
+
+今後は海外売上より、営業利益率・リカーリング比率・追加減損の有無を見るべき。
+
+### 7. 株式市場はNRIへ高い期待を織り込む
+
+2026年の株価は大きく変動し、好決算でも期待との差で大幅に売られる局面があった。
+
+NRIは「安定国内SIer」というより、**高利益率・高ROE・AI成長を期待される品質成長株**として評価されている。
+
+### 8. ガバナンスは海外再建とセットで見る
+
+統合レポート2026では、取締役会の実効性は概ね確保されているとする一方、**重要議題の審議の深さ、グローバル戦略、グループ会社のリスク・懸念点の早期報告、中長期リスクの予兆把握**に改善余地があると自己評価している。
+
+また、ガバナンス鼎談では社外取締役から、グローバル事業についてもっと早い段階で現実を深く直視し、将来戦略を議論すべきだったとの振り返りが示された。
+
+海外減損との直接の因果関係は公開情報から断定できないが、2027年3月期以降は**海外の損益だけでなく監督プロセスの改善**も確認すべき。
+
+➡️ [`04-governance/README.md`](./04-governance/README.md)
+
+### 9. 最大の競争相手は一社ではない
+
+- Accenture: FDE / Agentic AI / Global scale
+- NTT DATA: 国内大企業・金融・公共 + Global IT
+- IBM: Agentic control plane / AI platform
+- Deloitte: Agentic BPR / 上流変革
+- Fujitsu: AI基盤技術
+- Hitachi: Lumada / Physical AI
+
+NRIは全戦場で勝つ必要はなく、**日本企業の重要業務・基幹・運用・セキュリティをまとめて扱う複合戦**へ持ち込むことが重要。
+
+### 10. 人材の価値は下流作業から設計・判断へ移る
+
+NRIは2028年度までに、
+
+- AI高度人材: 1,147人 → 3,000人
+- セキュリティ高度人材: 1,198人 → 2,000人
+
+```mermaid
+flowchart LR
+    subgraph Talent["2028年度 高度専門人材目標"]
+        direction TB
+        A1["AI高度人材: 1,147名"] -->|約2.6倍増| A2["3,000名"]
+        S1["セキュリティ高度人材: 1,198名"] -->|約1.7倍増| S2["2,000名"]
+    end
+    subgraph RoleShift["人材配置の転換"]
+        direction TB
+        R1["定型コーディング・テスト・保守"] -->|AI駆動開発により余力創出| R2["課題設定・Architecture・FDE・ガバナンス"]
+    end
+    Talent --- RoleShift
+```
+
+を計画。
+
+AIで下流工数を減らし、人材を上流へ移す方向が明確。
+
+### 11. 2027年は「何を始めたか」から「何を生んだか」へ
+
+2026年は戦略とサービスを打ち出した年。
+
+2027年以降は、
+
+- AFTの顧客ROI
+- AI関連売上の利益率
+- AI駆動開発の利益寄与
+- 個別案件から共通Agent/Platformへの展開
+- 海外再建
+
+が評価の中心になる。
+
+---
+
+## Recommended reading order
+
+### 1. 総合評価
+
+- [`08-synthesis/final-assessment.md`](./08-synthesis/final-assessment.md)
+- [`08-synthesis/strengths-risks.md`](./08-synthesis/strengths-risks.md)
+- [`08-synthesis/scenarios-2027-2030.md`](./08-synthesis/scenarios-2027-2030.md)
+- [`08-synthesis/watchlist.md`](./08-synthesis/watchlist.md)
+
+### 2. 経営
+
+- [`01-management/strategy-2026-2028.md`](./01-management/strategy-2026-2028.md)
+- [`01-management/president-messages.md`](./01-management/president-messages.md)
+- [`02-financial-market/shareholder-message.md`](./02-financial-market/shareholder-message.md)
+
+### 3. 財務 / 株価
+
+- [`02-financial-market/financial-performance.md`](./02-financial-market/financial-performance.md)
+- [`02-financial-market/stock-price.md`](./02-financial-market/stock-price.md)
+- [`02-financial-market/valuation-market-expectations.md`](./02-financial-market/valuation-market-expectations.md)
+
+### 4. AI / AX
+
+- [`03-ai-ax/ai-strategy.md`](./03-ai-ax/ai-strategy.md)
+- [`03-ai-ax/frontier-model-impact.md`](./03-ai-ax/frontier-model-impact.md)
+- [`03-ai-ax/ai-products-services.md`](./03-ai-ax/ai-products-services.md)
+- [`03-ai-ax/internal-ai-transformation.md`](./03-ai-ax/internal-ai-transformation.md)
+- [`03-ai-ax/ai-security-governance.md`](./03-ai-ax/ai-security-governance.md)
+
+### 5. ガバナンス
+
+- [`04-governance/README.md`](./04-governance/README.md)
+- [`04-governance/board-committees.md`](./04-governance/board-committees.md)
+- [`04-governance/effectiveness-risk.md`](./04-governance/effectiveness-risk.md)
+- [`04-governance/investor-governance-view.md`](./04-governance/investor-governance-view.md)
+
+### 6. 競合
+
+- [`05-competition/competitor-map.md`](./05-competition/competitor-map.md)
+- [`05-competition/nri-relative-position.md`](./05-competition/nri-relative-position.md)
+- [`05-competition/accenture.md`](./05-competition/accenture.md)
+- [`05-competition/ntt-data.md`](./05-competition/ntt-data.md)
+- [`05-competition/ibm-deloitte.md`](./05-competition/ibm-deloitte.md)
+- [`05-competition/fujitsu-hitachi.md`](./05-competition/fujitsu-hitachi.md)
+
+### 7. 外部評価
+
+- [`06-external-view/self-image-vs-outside-view.md`](./06-external-view/self-image-vs-outside-view.md)
+- [`06-external-view/investor-view.md`](./06-external-view/investor-view.md)
+- [`06-external-view/media-analyst-view.md`](./06-external-view/media-analyst-view.md)
+- [`06-external-view/employee-reputation.md`](./06-external-view/employee-reputation.md)
+- [`06-external-view/brand-talent-market.md`](./06-external-view/brand-talent-market.md)
+
+### 8. 人材 / キャリア
+
+- [`07-people-work/talent-organization.md`](./07-people-work/talent-organization.md)
+- [`07-people-work/role-shifts-ai-era.md`](./07-people-work/role-shifts-ai-era.md)
+- [`07-people-work/career-implications.md`](./07-people-work/career-implications.md)
+- [`07-people-work/skills-roadmap.md`](./07-people-work/skills-roadmap.md)
+- [`07-people-work/public-safe-policy.md`](./07-people-work/public-safe-policy.md)
+
+---
+
+## Final strategic assessment
+
+### Strengths
+
+- 国内金融・大企業との長期関係
+- 高い国内収益性
+- コンサル〜運用までの一気通貫
+- 共同利用型サービス
+- セキュリティ能力
+- 強い人材ブランド
+
+### Weaknesses / risks
+
+- 海外事業の実行力
+- グローバルAIエコシステムの規模
+- AFT/FDEの競合との同質化
+- AI成果の公開事例不足
+- AI生産性向上が値下げ圧力になる可能性
+- Frontier AI企業の統合領域への進出
+
+### Overall
+
+**Positive / Execution-sensitive**
+
+NRIのAX戦略は、既存の強みを活かすという意味で合理的。
+
+ただし、AI時代は技術変化が速く、戦略の正しさより実行速度が重要になる。
+
+NRIが成功する場合、2030年には「AI案件の多いSIer」ではなく、**日本企業の重要業務を支えるAI/Agent基盤と運用を握る企業**へ近づいているはずである。
+
+---
+
+## Research policy / sources
+
+- [`sources/official-sources.md`](./sources/official-sources.md) — NRI一次情報
+- [`sources/governance-sources.md`](./sources/governance-sources.md) — ガバナンス一次情報・該当ページ
+- [`sources/ai-frontier-sources.md`](./sources/ai-frontier-sources.md) — AI/Frontier model関連
+- [`sources/competitor-sources.md`](./sources/competitor-sources.md) — 競合一次情報
+- [`sources/external-view-sources.md`](./sources/external-view-sources.md) — 外部評価
+- [`sources/people-work-sources.md`](./sources/people-work-sources.md) — 人材/仕事関連
+- [`sources/research-log.md`](./sources/research-log.md) — 調査履歴・限界
+
+
+## Automated monthly refresh
+
+このリポジトリは GitHub Actions の **Monthly NRI Source Monitor** で月次更新候補を自動収集する。
+
+- 毎月1日 09:15 JST に18ソースを巡回
+- NRIの決算・中計・IR Day・統合レポート・有価証券報告書・ニュース・AI・ガバナンスを優先監視
+- OpenAI / Anthropic と主要競合（Accenture、NTT DATA、IBM、Deloitte、Fujitsu、Hitachi）も差分確認
+- 実行結果は [sources/latest-source-monitor.md](./sources/latest-source-monitor.md) と [data/source-monitor-state.json](./data/source-monitor-state.json) に自動反映
+- 新規一次情報または重要ソース取得失敗を検知した場合、レビュー用GitHub Issueを自動生成
+- 分析本文やFinal conclusionは自動上書きせず、一次情報を検証してからEvidenceと該当章だけを更新する
+- GitHub Actions画面から手動実行も可能
+
+監視設定は [.github/source-monitor.json](./.github/source-monitor.json)、実装は [scripts/nri_source_monitor.py](./scripts/nri_source_monitor.py) を参照。
+
+## Status
+
+**Research v1 completed — 2026-09-15 / Governance chapter updated — 2026-09-20**
+
+今後は [`08-synthesis/watchlist.md`](./08-synthesis/watchlist.md) に沿って、四半期決算・AI発表・競合動向を差分更新する。

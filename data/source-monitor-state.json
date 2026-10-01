@@ -1,6 +1,1858 @@
 {
-  "initialized": false,
-  "last_run_jst": null,
+  "initialized": true,
+  "last_run_jst": "2026-10-01T14:45:47+09:00",
   "schema_version": 1,
-  "sources": {}
+  "sources": {
+    "accenture-news": {
+      "content_sha256": "3ad2670199fd84e6949b4a46c3ae6576e667b3ce6e26165380a7922588c01d9d",
+      "current_items": [],
+      "etag": "",
+      "last_modified": "Mon, 07 Sep 2026 03:47:46 GMT",
+      "last_status": 200,
+      "seen_urls": [],
+      "url": "https://newsroom.accenture.com/"
+    },
+    "anthropic-news": {
+      "content_sha256": "145ea3c51198234ab077d695505b49288affabd871b23fa7612cea58257a7018",
+      "current_items": [
+        {
+          "title": "Try Claude",
+          "url": "https://claude.ai/"
+        },
+        {
+          "title": "How to get support",
+          "url": "https://support.claude.com/en/articles/9015913-how-to-get-support"
+        },
+        {
+          "title": "Introducing Claude Sonnet 5.5 Announcements Sep 28, 2026 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "title": "Announcements Sep 22, 2026 Introducing Claude Opus 5.5 Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "title": "Features Sep 22, 2026 The Situation Report A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.",
+          "url": "https://www.anthropic.com/features/ebola-response"
+        },
+        {
+          "title": "Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "title": "Announcements Sep 10, 2026 Detecting and countering misuse of AI: September 2026 Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        },
+        {
+          "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+          "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
+        {
+          "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+        },
+        {
+          "title": "Aug 31, 2026 Announcements Improving our alignment and security efforts",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        },
+        {
+          "title": "Aug 27, 2026 Announcements Previewing the Model Hardware Standard",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        },
+        {
+          "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
+          "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
+        },
+        {
+          "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+          "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+        },
+        {
+          "title": "Aug 14, 2026 Announcements How Claude’s text watermark works",
+          "url": "https://www.anthropic.com/news/claude-text-watermark"
+        },
+        {
+          "title": "Aug 7, 2026 Product Improving Fable 5's biology safeguards",
+          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+        },
+        {
+          "title": "Claude",
+          "url": "https://claude.com/product/overview"
+        },
+        {
+          "title": "Claude Code",
+          "url": "https://claude.com/product/claude-code"
+        },
+        {
+          "title": "Claude Code Enterprise",
+          "url": "https://claude.com/product/claude-code/enterprise"
+        },
+        {
+          "title": "Claude Cowork",
+          "url": "https://claude.com/product/cowork"
+        },
+        {
+          "title": "@Claude",
+          "url": "https://claude.com/product/tag"
+        },
+        {
+          "title": "Claude Design",
+          "url": "https://claude.com/product/design"
+        },
+        {
+          "title": "Claude Science",
+          "url": "https://claude.com/product/claude-science"
+        },
+        {
+          "title": "Claude Security",
+          "url": "https://claude.com/product/claude-security"
+        },
+        {
+          "title": "Claude in Chrome",
+          "url": "https://claude.com/claude-in-chrome"
+        },
+        {
+          "title": "Claude for Microsoft 365",
+          "url": "https://claude.com/claude-for-microsoft-365"
+        },
+        {
+          "title": "Skills",
+          "url": "https://www.claude.com/skills"
+        },
+        {
+          "title": "Download app",
+          "url": "https://claude.ai/download"
+        },
+        {
+          "title": "Pricing",
+          "url": "https://claude.com/pricing"
+        },
+        {
+          "title": "Mythos",
+          "url": "https://www.anthropic.com/claude/mythos"
+        },
+        {
+          "title": "Fable",
+          "url": "https://www.anthropic.com/claude/fable"
+        },
+        {
+          "title": "Opus",
+          "url": "https://www.anthropic.com/claude/opus"
+        },
+        {
+          "title": "Sonnet",
+          "url": "https://www.anthropic.com/claude/sonnet"
+        },
+        {
+          "title": "Haiku",
+          "url": "https://www.anthropic.com/claude/haiku"
+        },
+        {
+          "title": "AI agents",
+          "url": "https://claude.com/solutions/agents"
+        },
+        {
+          "title": "Code modernization",
+          "url": "https://claude.com/solutions/code-modernization"
+        },
+        {
+          "title": "Coding",
+          "url": "https://claude.com/solutions/coding"
+        },
+        {
+          "title": "Commerce",
+          "url": "https://claude.com/solutions/commerce"
+        },
+        {
+          "title": "Customer support",
+          "url": "https://claude.com/solutions/customer-support"
+        }
+      ],
+      "etag": "",
+      "last_modified": "",
+      "last_status": 200,
+      "seen_urls": [
+        "https://claude.ai/",
+        "https://claude.ai/download",
+        "https://claude.com/claude-for-microsoft-365",
+        "https://claude.com/claude-in-chrome",
+        "https://claude.com/pricing",
+        "https://claude.com/product/claude-code",
+        "https://claude.com/product/claude-code/enterprise",
+        "https://claude.com/product/claude-science",
+        "https://claude.com/product/claude-security",
+        "https://claude.com/product/cowork",
+        "https://claude.com/product/design",
+        "https://claude.com/product/overview",
+        "https://claude.com/product/tag",
+        "https://claude.com/solutions/agents",
+        "https://claude.com/solutions/code-modernization",
+        "https://claude.com/solutions/coding",
+        "https://claude.com/solutions/commerce",
+        "https://claude.com/solutions/customer-support",
+        "https://support.claude.com/en/articles/9015913-how-to-get-support",
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://www.anthropic.com/claude-opus-5-5",
+        "https://www.anthropic.com/claude-sonnet-5-5",
+        "https://www.anthropic.com/claude/fable",
+        "https://www.anthropic.com/claude/haiku",
+        "https://www.anthropic.com/claude/mythos",
+        "https://www.anthropic.com/claude/opus",
+        "https://www.anthropic.com/claude/sonnet",
+        "https://www.anthropic.com/features/ebola-response",
+        "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "https://www.anthropic.com/news/claude-text-watermark",
+        "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+        "https://www.anthropic.com/news/expanding-support-for-scientists",
+        "https://www.anthropic.com/news/improving-alignment-security-efforts",
+        "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+        "https://www.anthropic.com/news/life-sciences-verification-program",
+        "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+        "https://www.anthropic.com/news/wellbeing-research-grants",
+        "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "https://www.claude.com/skills"
+      ],
+      "url": "https://www.anthropic.com/news"
+    },
+    "deloitte-news": {
+      "content_sha256": "a512d30aba869991da7aa794e12e9c7767fccc7f0ab2c603cdd531edaaf333e2",
+      "current_items": [
+        {
+          "title": "Artificial Intelligence",
+          "url": "https://www.deloitte.com/global/en/what-we-do/capabilities/ai.html?icid=top_ai"
+        },
+        {
+          "title": "Engineering, AI & Data",
+          "url": "https://www.deloitte.com/global/en/services/consulting/services/engineering-ai-data.html?icid=top_core-business-operations"
+        },
+        {
+          "title": "Sustainability",
+          "url": "https://www.deloitte.com/global/en/issues/climate/sustainability-and-climate.html?icid=top_sustainability-and-climate"
+        },
+        {
+          "title": "Artificial Intelligence Service",
+          "url": "https://www.deloitte.com/global/en/what-we-do/capabilities/ai.html"
+        },
+        {
+          "title": "Telecommunications, Media & Entertainment",
+          "url": "https://www.deloitte.com/global/en/industries/telecom-media-entertainment.html?icid=top_telecom-media-entertainment"
+        },
+        {
+          "title": "Retail, Wholesale & Distribution",
+          "url": "https://www.deloitte.com/global/en/industries/retail.html?icid=top_retail"
+        },
+        {
+          "title": "https://www.deloitte.com/global/en/issues/generative-ai.html",
+          "url": "https://www.deloitte.com/global/en/issues/generative-ai.html"
+        },
+        {
+          "title": "AI",
+          "url": "https://www.deloitte.com/global/en/what-we-do/capabilities/ai/collections/ai.html?icid=top_ai-insights"
+        },
+        {
+          "title": "Airlines & Aviation",
+          "url": "https://www.deloitte.com/global/en/industries/consumer/about/airlines-and-aviation.html?icid=top_airlines-and-aviation"
+        },
+        {
+          "title": "Retail, Wholesale & Distribution",
+          "url": "https://www.deloitte.com/global/en/industries/retail/about.html?icid=top_about"
+        },
+        {
+          "title": "Media & Entertainment",
+          "url": "https://www.deloitte.com/global/en/industries/tmt/about/media-entertainment.html?icid=top_media-entertainment"
+        },
+        {
+          "title": "Engineering, AI & Data",
+          "url": "https://www.deloitte.com/global/en/services/consulting/services/engineering-ai-data.html?icid=bn_core-business-operations"
+        }
+      ],
+      "etag": "\"3dae4-65cbcff0e2882-gzip\"",
+      "last_modified": "Thu, 01 Oct 2026 01:04:22 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://www.deloitte.com/global/en/industries/consumer/about/airlines-and-aviation.html?icid=top_airlines-and-aviation",
+        "https://www.deloitte.com/global/en/industries/retail.html?icid=top_retail",
+        "https://www.deloitte.com/global/en/industries/retail/about.html?icid=top_about",
+        "https://www.deloitte.com/global/en/industries/telecom-media-entertainment.html?icid=top_telecom-media-entertainment",
+        "https://www.deloitte.com/global/en/industries/tmt/about/media-entertainment.html?icid=top_media-entertainment",
+        "https://www.deloitte.com/global/en/issues/climate/sustainability-and-climate.html?icid=top_sustainability-and-climate",
+        "https://www.deloitte.com/global/en/issues/generative-ai.html",
+        "https://www.deloitte.com/global/en/services/consulting/services/engineering-ai-data.html?icid=bn_core-business-operations",
+        "https://www.deloitte.com/global/en/services/consulting/services/engineering-ai-data.html?icid=top_core-business-operations",
+        "https://www.deloitte.com/global/en/what-we-do/capabilities/ai.html",
+        "https://www.deloitte.com/global/en/what-we-do/capabilities/ai.html?icid=top_ai",
+        "https://www.deloitte.com/global/en/what-we-do/capabilities/ai/collections/ai.html?icid=top_ai-insights"
+      ],
+      "url": "https://www.deloitte.com/global/en/about/press-room.html"
+    },
+    "fujitsu-research-news": {
+      "content_sha256": "5d3ca8e5a95218def5ca37caeb3aa3e137c465ee192cd4fbef20ac29c3269b2a",
+      "current_items": [
+        {
+          "title": "AI",
+          "url": "https://portal.research.global.fujitsu.com/kozuchi/"
+        },
+        {
+          "title": "Data&Security",
+          "url": "https://portal.research.global.fujitsu.com/data-security/"
+        },
+        {
+          "title": "2026年10月01日 告知 Fujitsu AI Ethics for Fairnessのアプリケーションの公開を終了",
+          "url": "https://documents.research.global.fujitsu.com/ai-ethics-fairness/"
+        },
+        {
+          "title": "2026年09月11日 告知 記事内容の正確性を期すため、「Takane特化技術」の記事タイトル等を修正",
+          "url": "https://documents.research.global.fujitsu.com/domain-specific-ai/"
+        },
+        {
+          "title": "2026年02月06日 告知 Fujitsu Amalgamation AI for Visionの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/amalgamation-ai-for-vision/"
+        },
+        {
+          "title": "2026年01月29日 告知 Multi AI Agent Frameworkの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/multi-ai-agent-framework/"
+        },
+        {
+          "title": "2026年01月27日 告知 エンタープライズLLM「Takane」と生成AI再構成の技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/takane-enterprise-llm-with-generative-ai-reconstruction/"
+        },
+        {
+          "title": "2026年01月21日 告知 Fujitsu因果AIの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/Data-Driven-Decision-Making/"
+        },
+        {
+          "title": "2025年11月17日 告知 ゼロエミッション材料開発を加速する HPC & AI 融合技術の技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/materials-informatics/"
+        },
+        {
+          "title": "2025年06月30日 告知 AI computing brokerの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/ai-computing-broker/"
+        },
+        {
+          "title": "2024年06月14日 告知 Federated SNSにて、生成AIチャットボット機能の一部を公開",
+          "url": "https://documents.research.global.fujitsu.com/Federated-SNS/"
+        },
+        {
+          "title": "2023年12月15日 告知 Trustable Internetの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/trustable-internet/"
+        }
+      ],
+      "etag": "\"0x8DF1F58139B8C47\"",
+      "last_modified": "Thu, 01 Oct 2026 01:05:25 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://documents.research.global.fujitsu.com/Data-Driven-Decision-Making/",
+        "https://documents.research.global.fujitsu.com/Federated-SNS/",
+        "https://documents.research.global.fujitsu.com/ai-computing-broker/",
+        "https://documents.research.global.fujitsu.com/ai-ethics-fairness/",
+        "https://documents.research.global.fujitsu.com/amalgamation-ai-for-vision/",
+        "https://documents.research.global.fujitsu.com/domain-specific-ai/",
+        "https://documents.research.global.fujitsu.com/materials-informatics/",
+        "https://documents.research.global.fujitsu.com/multi-ai-agent-framework/",
+        "https://documents.research.global.fujitsu.com/takane-enterprise-llm-with-generative-ai-reconstruction/",
+        "https://documents.research.global.fujitsu.com/trustable-internet/",
+        "https://portal.research.global.fujitsu.com/data-security/",
+        "https://portal.research.global.fujitsu.com/kozuchi/"
+      ],
+      "url": "https://portal.research.global.fujitsu.com/news.html"
+    },
+    "hitachi-press": {
+      "content_sha256": "58385e3f16485e07499f1d0e20ba18d9b1ac4131d60c796af6f1a4b007c1c410",
+      "current_items": [
+        {
+          "title": "車両 (英語)",
+          "url": "https://www.hitachirail.com/products-and-solutions/rolling-stock/"
+        },
+        {
+          "title": "都市鉄道 信号・運行管理システム（英語）",
+          "url": "https://www.hitachirail.com/products-and-solutions/urban-rail-control-supervision/"
+        },
+        {
+          "title": "高速鉄道・在来線 信号・運行管理システム（英語）",
+          "url": "https://www.hitachirail.com/products-and-solutions/mainline-rail-control-supervision/"
+        },
+        {
+          "title": "貨物鉄道 信号・運行管理システム（英語）",
+          "url": "https://www.hitachirail.com/products-and-solutions/freight-rail-control-supervision/"
+        },
+        {
+          "title": "チケッティング&料金収受システム（英語）",
+          "url": "https://www.hitachirail.com/products-and-solutions/ticketing-payment/"
+        },
+        {
+          "title": "デジタルアセットマネジメント - HMAX（英語）",
+          "url": "https://www.hitachirail.com/products-and-solutions/digital-asset-management/"
+        },
+        {
+          "title": "サステナビリティレポート",
+          "url": "https://www.hitachi.com/ja-jp/sustainability/download/"
+        },
+        {
+          "title": "サステナビリティ",
+          "url": "https://www.hitachi.com/ja-jp/sustainability/"
+        },
+        {
+          "title": "環境",
+          "url": "https://www.hitachi.com/ja-jp/sustainability/environment/"
+        },
+        {
+          "title": "社会",
+          "url": "https://www.hitachi.com/ja-jp/sustainability/social/"
+        },
+        {
+          "title": "ガバナンス",
+          "url": "https://www.hitachi.com/ja-jp/sustainability/governance/"
+        },
+        {
+          "title": "日立、フィジカルAIの社会実装を加速させる「HMAX」を拡充",
+          "url": "https://www.hitachi.com/ja-jp/press/articles/2026/09/0903b/"
+        }
+      ],
+      "etag": "",
+      "last_modified": "",
+      "last_status": 200,
+      "seen_urls": [
+        "https://www.hitachi.com/ja-jp/press/articles/2026/09/0903b/",
+        "https://www.hitachi.com/ja-jp/sustainability/",
+        "https://www.hitachi.com/ja-jp/sustainability/download/",
+        "https://www.hitachi.com/ja-jp/sustainability/environment/",
+        "https://www.hitachi.com/ja-jp/sustainability/governance/",
+        "https://www.hitachi.com/ja-jp/sustainability/social/",
+        "https://www.hitachirail.com/products-and-solutions/digital-asset-management/",
+        "https://www.hitachirail.com/products-and-solutions/freight-rail-control-supervision/",
+        "https://www.hitachirail.com/products-and-solutions/mainline-rail-control-supervision/",
+        "https://www.hitachirail.com/products-and-solutions/rolling-stock/",
+        "https://www.hitachirail.com/products-and-solutions/ticketing-payment/",
+        "https://www.hitachirail.com/products-and-solutions/urban-rail-control-supervision/"
+      ],
+      "url": "https://www.hitachi.com/ja-jp/press/"
+    },
+    "ibm-news": {
+      "content_sha256": "1d41db4602134250c1fd1b879e56efb970c3f2107036c4ef96eb9bec45861946",
+      "current_items": [
+        {
+          "title": "Artificial intelligence",
+          "url": "https://newsroom.ibm.com/latest-news-artificial-intelligence"
+        },
+        {
+          "title": "Hybrid cloud",
+          "url": "https://newsroom.ibm.com/latest-news-hybrid-cloud"
+        },
+        {
+          "title": "securityintelligence.com",
+          "url": "https://securityintelligence.com/"
+        },
+        {
+          "title": "IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance",
+          "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance"
+        },
+        {
+          "title": "Extending AI-Powered IBM Z application modernization with self-hosted deployment and new analysis capabilities",
+          "url": "https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities"
+        },
+        {
+          "title": "IBM Study: As AI Scales Enterprise-Wide, CFOs Play an Expanded Role in Transformation",
+          "url": "https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation"
+        },
+        {
+          "title": "Building Trust Into the Next Generation of AI Agents",
+          "url": "https://newsroom.ibm.com/blog-building-trust-into-the-next-generation-of-ai-agents"
+        },
+        {
+          "title": "IBM Acquires Logiq Consulting to Expand Secure Digital Transformation and Cybersecurity Capabilities in the UK",
+          "url": "https://newsroom.ibm.com/2026-09-24-ibm-acquires-logiq-consulting-to-expand-secure-digital-transformation-and-cybersecurity-capabilities-in-the-uk"
+        },
+        {
+          "title": "Marist University and IBM Launch Innovation Incubator with IBM z17, Expanding 50-Year Partnership to Advance AI Research and Student Career Readiness",
+          "url": "https://newsroom.ibm.com/2026-09-22-marist-university-and-ibm-launch-innovation-incubator-with-ibm-z17,-expanding-50-year-partnership-to-advance-ai-research-and-student-career-readiness"
+        },
+        {
+          "title": "New IBM CHRO Study: AI Puts Critical Thinking at the Center of Workforce Priorities",
+          "url": "https://newsroom.ibm.com/2026-09-21-new-ibm-chro-study-ai-puts-critical-thinking-at-the-center-of-workforce-priorities"
+        },
+        {
+          "title": "IBM and NASA Release Open-Source AI Model to Support Lunar Exploration",
+          "url": "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration"
+        }
+      ],
+      "etag": "",
+      "last_modified": "Thu, 01 Oct 2026 04:24:26 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration",
+        "https://newsroom.ibm.com/2026-09-21-new-ibm-chro-study-ai-puts-critical-thinking-at-the-center-of-workforce-priorities",
+        "https://newsroom.ibm.com/2026-09-22-marist-university-and-ibm-launch-innovation-incubator-with-ibm-z17,-expanding-50-year-partnership-to-advance-ai-research-and-student-career-readiness",
+        "https://newsroom.ibm.com/2026-09-24-ibm-acquires-logiq-consulting-to-expand-secure-digital-transformation-and-cybersecurity-capabilities-in-the-uk",
+        "https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation",
+        "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+        "https://newsroom.ibm.com/blog-building-trust-into-the-next-generation-of-ai-agents",
+        "https://newsroom.ibm.com/latest-news-artificial-intelligence",
+        "https://newsroom.ibm.com/latest-news-hybrid-cloud",
+        "https://securityintelligence.com/",
+        "https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities"
+      ],
+      "url": "https://newsroom.ibm.com/"
+    },
+    "nri-ai-portal": {
+      "content_sha256": "e4d4ed0d6e6b3c2194bdc65e2d90d65d1872c0368fec81dbc741b3591658f98c",
+      "current_items": [
+        {
+          "title": "2026/09/17 NRIセキュア、「フロンティアAI対応プロアクティブ脆弱性診断」のデータ取り扱い体制を強化",
+          "url": "https://www.nri.com/jp/news/info/20260917_1.html"
+        },
+        {
+          "title": "2026/09/16 野村総合研究所、三菱重工業とAIを始めとしたデジタル技術を活用した業務プロセス改革への共同検討と実践活動を開始",
+          "url": "https://www.nri.com/jp/news/info/20260916_1.html"
+        },
+        {
+          "title": "2026/08/27 NRIセキュア、AIをはじめとするエマージングテクノロジーの利活用を支えるセキュリティガバナンス構築支援サービスを提供開始",
+          "url": "https://www.nri.com/jp/news/newsrelease/20260827_1.html"
+        },
+        {
+          "title": "203X : AIで拡張する社会",
+          "url": "https://www.nri.com/jp/service/souhatsu/extending_society_with_ai.html"
+        },
+        {
+          "title": "生成AIを活用した企業変革",
+          "url": "https://www.nri.com/jp/service/theme/ai/generative_ai.html"
+        },
+        {
+          "title": "NRI Solution Ai",
+          "url": "https://www.nri.com/jp/service/solution/solution_ai.html"
+        },
+        {
+          "title": "AIセキュリティ",
+          "url": "https://www.nri-secure.co.jp/service/ai-security"
+        },
+        {
+          "title": "2026/06/17 トピックス 野村総合研究所、AIロボット協会に参画～「フィジカルAX」を加速 ～",
+          "url": "https://www.nri.com/jp/media/topics/20260617.html"
+        },
+        {
+          "title": "2026/02/24 お知らせ 野村総合研究所、Anthropic Japanとのパートナーシップを拡大",
+          "url": "https://www.nri.com/jp/news/info/20260224_1.html"
+        },
+        {
+          "title": "2025/11/20 ニュースリリース 野村総合研究所、日本国内初のAnthropic認定リセラーに選定",
+          "url": "https://www.nri.com/data/jp/news/files/000054634.pdf"
+        },
+        {
+          "title": "2025/10/29 ニュースリリース 野村総合研究所、企業の生成AI活用を支援する「AI共創モデル」をGoogle Cloudに拡大",
+          "url": "https://www.nri.com/jp/news/newsrelease/20251029_2.html"
+        },
+        {
+          "title": "2025/10/16 ニュースリリース 野村総合研究所、AWSと生成AI分野で戦略的協業契約を締結",
+          "url": "https://www.nri.com/jp/news/newsrelease/20251016_2.html"
+        },
+        {
+          "title": "2025/08/27 ニュースリリース 野村総合研究所、企業の生成AI活用を包括的に支援する「AI共創モデル」を構築～日本マイクロソフトの技術基盤とAIパートナーの専門性を融合～",
+          "url": "https://www.nri.com/jp/news/newsrelease/20250827_1.html"
+        },
+        {
+          "title": "2025/05/21 お知らせ 野村総合研究所、「AI Platform on Microsoft Azure」分野で、マイクロソフトの 上位パートナー認定資格「Specialization」を取得",
+          "url": "https://atlax.nri.co.jp/news/20250521/"
+        },
+        {
+          "title": "2024/07/24 ニュースリリース 野村総合研究所、ELYZA、KDDI、法人向け生成AI提供で協業",
+          "url": "https://www.nri.com/jp/news/newsrelease/20240724_1.html"
+        },
+        {
+          "title": "2024/03/07 お知らせ 野村総合研究所、日本初かつ日本国内で唯一の「AWS Generative AIコンピテンシー」に認定",
+          "url": "https://www.nri.com/jp/news/info/20240307_2.html"
+        },
+        {
+          "title": "2026/09/24 複雑化する社会の「意思決定」にAIをどう活かすか",
+          "url": "https://www.nri.com/jp/media/column/mizutani/20260924.html"
+        },
+        {
+          "title": "2026/09/07 オーケストラのボウイング決めにAI使ってみた話",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202609/08.html"
+        },
+        {
+          "title": "2026/09/07 AIをフル活用したトランスフォーメーション",
+          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202607/01.html"
+        },
+        {
+          "title": "2026/08/31 自治体防災・災害対応における生成AI活用のあり方",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202608_2/02.html"
+        },
+        {
+          "title": "2026/08/27 NRI初の業界特化型AXセミナーを開催～「不動産業界×AI」の最前線を発信～",
+          "url": "https://www.nri.com/jp/media/topics/20260827.html"
+        },
+        {
+          "title": "2026/08/20 AI時代における企業の品格",
+          "url": "https://www.nri.com/jp/media/journal/20260820.html"
+        },
+        {
+          "title": "2026/08/18 製造業におけるAI活用改革と導入に向けた課題と成功の要諦",
+          "url": "https://www.nri.com/jp/media/column/mcs_blog/20260818.html"
+        },
+        {
+          "title": "2026/08/07 AI人材戦略と社内タレント発掘の処方箋 ～AX時代の人的資本経営～｜ウェビナー開催レポート",
+          "url": "https://www.nri.com/jp/media/column/scs_blog/20260807.html"
+        },
+        {
+          "title": "2026/08/06 NRIセキュア、自社のSOC運用知見を組み込んだAIで、セキュリティ監視サービスを強化",
+          "url": "https://www.nri.com/jp/news/info/20260806_1.html"
+        },
+        {
+          "title": "2026/08/05 AIエージェント時代における意図のガバナンス",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/05.html"
+        },
+        {
+          "title": "2026/08/05 フロンティアAIの標的になる中小企業を支えるサイバー保険",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/08.html"
+        },
+        {
+          "title": "2026/08/03 AI時代における企業の品格",
+          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/01.html"
+        },
+        {
+          "title": "2026/08/03 AIと変わる製薬業界",
+          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/06.html"
+        },
+        {
+          "title": "2026/08/03 野村総合研究所、AIによる事業変革支援サービス「NRI AFT(AI Field Transformer)」を提供開始",
+          "url": "https://www.nri.com/jp/news/newsrelease/20260803_1.html"
+        },
+        {
+          "title": "2026/07/27 「見たいその瞬間」をAIが選んで超低遅延で届ける-「KYOJO CUP」で次世代リアルタイム映像配信を実証",
+          "url": "https://www.nri.com/jp/news/info/files/000064467.pdf"
+        },
+        {
+          "title": "2026/07/24 技術と主権の交差路：VivaTechnology 2026を振り返って",
+          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260724.html"
+        },
+        {
+          "title": "2026/07/06 生成AIの台頭を踏まえたインドGCCの活用ポテンシャル",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202606_2/04.html"
+        },
+        {
+          "title": "2026/07/06 フィジカルAIとの協働による次世代現場力の獲得",
+          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202605/03.html"
+        },
+        {
+          "title": "2026/07/06 生成AIで変容するデジタルクライム",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202607/07.html"
+        },
+        {
+          "title": "2026/07/03 ハイパースケーラー（米国テック企業）のAI投資100兆円以上、ゴールドラッシュかダークファイバーの再来か ―後編―",
+          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260703.html"
+        },
+        {
+          "title": "2026/07/02 ハイパースケーラー（米国テック企業）のAI投資100兆円以上、ゴールドラッシュかダークファイバーの再来か ―前編―",
+          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260702.html"
+        },
+        {
+          "title": "2026/06/25 AI中心の経営",
+          "url": "https://www.nri.com/jp/knowledge/book/20260708.html"
+        },
+        {
+          "title": "2026/06/24 AIプロフェッショナルが挑む車いすラグビーの戦術提案",
+          "url": "https://www.nri.com/jp/media/journal/20260624.html"
+        },
+        {
+          "title": "2026/06/23 NRIセキュア、フロンティアAIモデルに対応したプロアクティブな脆弱性診断サービスを提供開始",
+          "url": "https://www.nri.com/jp/news/newsrelease/20260623_1.html"
+        }
+      ],
+      "etag": "",
+      "last_modified": "",
+      "last_status": 200,
+      "seen_urls": [
+        "https://atlax.nri.co.jp/news/20250521/",
+        "https://www.nri-secure.co.jp/service/ai-security",
+        "https://www.nri.com/data/jp/news/files/000054634.pdf",
+        "https://www.nri.com/jp/knowledge/book/20260708.html",
+        "https://www.nri.com/jp/knowledge/publication/chitekishisan_202605/03.html",
+        "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/01.html",
+        "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/06.html",
+        "https://www.nri.com/jp/knowledge/publication/chitekishisan_202607/01.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202607/07.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/05.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/08.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202609/08.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202606_2/04.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202608_2/02.html",
+        "https://www.nri.com/jp/media/column/extending_society_with_ai/20260702.html",
+        "https://www.nri.com/jp/media/column/extending_society_with_ai/20260703.html",
+        "https://www.nri.com/jp/media/column/extending_society_with_ai/20260724.html",
+        "https://www.nri.com/jp/media/column/mcs_blog/20260818.html",
+        "https://www.nri.com/jp/media/column/mizutani/20260924.html",
+        "https://www.nri.com/jp/media/column/scs_blog/20260807.html",
+        "https://www.nri.com/jp/media/journal/20260624.html",
+        "https://www.nri.com/jp/media/journal/20260820.html",
+        "https://www.nri.com/jp/media/topics/20260617.html",
+        "https://www.nri.com/jp/media/topics/20260827.html",
+        "https://www.nri.com/jp/news/info/20240307_2.html",
+        "https://www.nri.com/jp/news/info/20260224_1.html",
+        "https://www.nri.com/jp/news/info/20260806_1.html",
+        "https://www.nri.com/jp/news/info/20260916_1.html",
+        "https://www.nri.com/jp/news/info/20260917_1.html",
+        "https://www.nri.com/jp/news/info/files/000064467.pdf",
+        "https://www.nri.com/jp/news/newsrelease/20240724_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20250827_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20251016_2.html",
+        "https://www.nri.com/jp/news/newsrelease/20251029_2.html",
+        "https://www.nri.com/jp/news/newsrelease/20260623_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20260803_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20260827_1.html",
+        "https://www.nri.com/jp/service/solution/solution_ai.html",
+        "https://www.nri.com/jp/service/souhatsu/extending_society_with_ai.html",
+        "https://www.nri.com/jp/service/theme/ai/generative_ai.html"
+      ],
+      "url": "https://ai.nri.com/"
+    },
+    "nri-business-plan": {
+      "content_sha256": "e554d0746fbf9260defc5c791eb785e64336a9139177241a66757914b8dc6420",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/02/linkList/0/link/20260424_mediumtermmanagementplan.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/02/linkList/0/link/20260424_mediumtermmanagementplan.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/01/link/260515pre_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/01/link/260515pre_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/02/link/260515pre_1(withnote).pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/02/link/260515pre_1(withnote).pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/00/link/260515pre_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/00/link/260515pre_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/03/link/260515pre_2(withnote).pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/03/link/260515pre_2(withnote).pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/04/link/260515pre(qa).pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/04/link/260515pre(qa).pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111112/teaserItems2/02/linkList/0/link/20230427_mediumtermmanagementplan.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111112/teaserItems2/02/linkList/0/link/20230427_mediumtermmanagementplan.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/01111119/teaserItems2/02/linkList/0/link/190425chukei.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/01111119/teaserItems2/02/linkList/0/link/190425chukei.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/businessplan/main/011111111/teaserItems2/02/linkList/0/link/File653895570.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan/main/011111111/teaserItems2/02/linkList/0/link/File653895570.pdf"
+        },
+        {
+          "title": "中期経営計画 （2,831KB）",
+          "url": "https://ir.nri.com/jp/ir/management/plan/main/0/link/20260424_mediumtermmanagementplan.pdf"
+        },
+        {
+          "title": "中期経営計画",
+          "url": "https://ir.nri.com/jp/ir/library/businessplan.html"
+        },
+        {
+          "title": "事業概要説明資料",
+          "url": "https://ir.nri.com/jp/ir/library/business-outline.html"
+        }
+      ],
+      "etag": "\"aa1f-65c315be1e238\"",
+      "last_modified": "Thu, 24 Sep 2026 02:28:44 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/library/business-outline.html",
+        "https://ir.nri.com/jp/ir/library/businessplan.html",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/00/link/260515pre_2.pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/01/link/260515pre_1.pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/02/link/260515pre_1(withnote).pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/03/link/260515pre_2(withnote).pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/01119/linkList/04/link/260515pre(qa).pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111110/teaserItems2/02/linkList/0/link/20260424_mediumtermmanagementplan.pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111111/teaserItems2/02/linkList/0/link/File653895570.pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/011111112/teaserItems2/02/linkList/0/link/20230427_mediumtermmanagementplan.pdf",
+        "https://ir.nri.com/jp/ir/library/businessplan/main/01111119/teaserItems2/02/linkList/0/link/190425chukei.pdf",
+        "https://ir.nri.com/jp/ir/management/plan/main/0/link/20260424_mediumtermmanagementplan.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/businessplan.html"
+    },
+    "nri-financial": {
+      "content_sha256": "5e0a094ae9e9e54c4ce5df2ec07c6209a5e838ebef7c39c9f9ee463e0491bcf4",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/03/link/20260730_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/03/link/20260730_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/00/link/20260424_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/00/link/20260424_supplementalmaterial.xlsx"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/03/link/20260424_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/03/link/20260424_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/04/link/20260424_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/04/link/20260424_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/0/link/20260129_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/0/link/20260129_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/00/link/20260129_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/00/link/20260129_supplementalmaterial.xlsx"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/01/link/20260129_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/01/link/20260129_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/03/link/20260129_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/03/link/20260129_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/0/link/20251030_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/0/link/20251030_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/00/link/20251030_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/00/link/20251030_supplementalmaterial.xlsx"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/02/link/20251030_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/02/link/20251030_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/03/link/20251030_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/03/link/20251030_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0118/linkList/0/link/20250728_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0118/linkList/0/link/20250728_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0119/linkList/0/link/20250728_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0119/linkList/0/link/20250728_supplementalmaterial.xlsx"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01111/linkList/0/link/20250728_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01111/linkList/0/link/20250728_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01112/linkList/0/link/20250728_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01112/linkList/0/link/20250728_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/00/link/20250424_financialresultsoutline.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/00/link/20250424_financialresultsoutline.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/0/link/20250424_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/0/link/20250424_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/02/link/20250424_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/02/link/20250424_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/03/link/20250424_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/03/link/20250424_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/0/link/20250130_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/0/link/20250130_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/02/link/20250130_financialresultspresentaionwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/02/link/20250130_financialresultspresentaionwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/01/link/20250130_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/01/link/20250130_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/0/link/20241030_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/0/link/20241030_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/01/link/20241030_financialresultspresentationwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/01/link/20241030_financialresultspresentationwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/02/link/20241030_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/02/link/20241030_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/0/link/20230727_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/0/link/20230727_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/01/link/20230727_financialresultspresentationwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/01/link/20230727_financialresultspresentationwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/02/link/20230727_financialresultspresentationqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/02/link/20230727_financialresultspresentationqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/0/link/20231026_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/0/link/20231026_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/01/link/20231026_financialresultspresentationwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/01/link/20231026_financialresultspresentationwithnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/02/link/20231026_financialresultspresentaionqa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/02/link/20231026_financialresultspresentaionqa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/0/link/20240131_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/0/link/20240131_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/03/link/20240131_financialresultspresentationwithnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/03/link/20240131_financialresultspresentationwithnote.pdf"
+        }
+      ],
+      "etag": "\"4cf10-65c30ba0d9998\"",
+      "last_modified": "Thu, 24 Sep 2026 01:43:29 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/0/link/20260129_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/00/link/20260129_supplementalmaterial.xlsx",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/01/link/20260129_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01110/linkList/03/link/20260129_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01111/linkList/0/link/20250728_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01112/linkList/0/link/20250728_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/0/link/20251030_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/00/link/20251030_supplementalmaterial.xlsx",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/02/link/20251030_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01113/linkList/03/link/20251030_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/00/link/20260424_supplementalmaterial.xlsx",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/03/link/20260424_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/04/link/20260424_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/03/link/20260730_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/0/link/20241030_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/01/link/20241030_financialresultspresentationwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/02/link/20241030_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/0/link/20231026_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/01/link/20231026_financialresultspresentationwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/02/link/20231026_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/0/link/20250130_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/01/link/20250130_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0116/linkList/02/link/20250130_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/0/link/20250424_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/00/link/20250424_financialresultsoutline.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/02/link/20250424_financialresultspresentaionwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0117/linkList/03/link/20250424_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0118/linkList/0/link/20250728_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0119/linkList/0/link/20250728_supplementalmaterial.xlsx",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/0/link/20230727_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/01/link/20230727_financialresultspresentationwithnote.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/019/linkList/02/link/20230727_financialresultspresentationqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/0/link/20240131_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/03/link/20240131_financialresultspresentationwithnote.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/financial.html"
+    },
+    "nri-governance": {
+      "content_sha256": "3f94ae5a3bb7d0741b7d061781f58670c6169ec235b791ecb17f066680eada60",
+      "current_items": [
+        {
+          "title": "NRIコーポレートガバナンス・ガイドライン（362KB）",
+          "url": "https://www.nri.com/content/900038251.pdf"
+        },
+        {
+          "title": "コーポレート・ガバナンス報告書ダウンロード(1.30MB)",
+          "url": "https://www.nri.com/content/900038246.pdf"
+        },
+        {
+          "title": "コーポレート・ガバナンス",
+          "url": "https://www.nri.com/jp/company/co_governance/index.html"
+        }
+      ],
+      "etag": "\"5a739055ed69a38b7d48ff7f7e4cd7cb\"",
+      "last_modified": "Wed, 01 Jul 2026 02:01:15 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://www.nri.com/content/900038246.pdf",
+        "https://www.nri.com/content/900038251.pdf",
+        "https://www.nri.com/jp/company/co_governance/index.html"
+      ],
+      "url": "https://www.nri.com/jp/company/co_governance/governance.html"
+    },
+    "nri-integrated-report": {
+      "content_sha256": "2dc491c558cc63bd93a12a2cbf3d84b6625f5eff230f86a86e66527f38cd7a86",
+      "current_items": [
+        {
+          "title": "NRI統合レポート2026 ＜全文表示＞（9,066KB）",
+          "url": "https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf"
+        }
+      ],
+      "etag": "\"dbbd-65c30d3d05780\"",
+      "last_modified": "Thu, 24 Sep 2026 01:50:42 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/report.htm"
+    },
+    "nri-ir-day": {
+      "content_sha256": "b331bcd83b67a08c395eec8f10b3b703f88d66c100919390934b5bcc81fa0275",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/0/link/260826pre_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/0/link/260826pre_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/04/link/260826pre_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/04/link/260826pre_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/06/link/260826pre_2_withnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/06/link/260826pre_2_withnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/01/link/260826pre_3.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/01/link/260826pre_3.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/07/link/260826pre_3_withnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/07/link/260826pre_3_withnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/02/link/260826pre_4.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/02/link/260826pre_4.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/08/link/260826pre_4_withnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/08/link/260826pre_4_withnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/03/link/260826pre_5.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/03/link/260826pre_5.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/09/link/260826pre_5_withnote.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/09/link/260826pre_5_withnote.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/010/link/260826pre_qa.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/010/link/260826pre_qa.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/0/link/250310pre_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/0/link/250310pre_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/01/link/250310pre_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/01/link/250310pre_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/0/link/240304pre_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/0/link/240304pre_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/01/link/20240304pre_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/01/link/20240304pre_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/07/linkList/01/link/20230315.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/07/linkList/01/link/20230315.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/0/link/20220629_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/0/link/20220629_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/01/link/20220629_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/01/link/20220629_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/05/linkList/0/link/20220307pre.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/05/linkList/0/link/20220307pre.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/0/link/20210308pre_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/0/link/20210308pre_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/00/link/20210308pre_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/00/link/20210308pre_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/01/link/20210308pre_3.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/01/link/20210308pre_3.pdf"
+        },
+        {
+          "title": "中期経営計画 （2,831KB）",
+          "url": "https://ir.nri.com/jp/ir/management/plan/main/0/link/20260424_mediumtermmanagementplan.pdf"
+        },
+        {
+          "title": "IR Day・事業説明会資料",
+          "url": "https://ir.nri.com/jp/ir/library/outline.html"
+        },
+        {
+          "title": "事業概要説明資料",
+          "url": "https://ir.nri.com/jp/ir/library/business-outline.html"
+        }
+      ],
+      "etag": "\"be01-65c30e768ed98\"",
+      "last_modified": "Thu, 24 Sep 2026 01:56:10 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/library/business-outline.html",
+        "https://ir.nri.com/jp/ir/library/outline.html",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/0/link/20220629_1.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/01/linkList/01/link/20220629_2.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/0/link/250310pre_1.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/011/linkList/01/link/250310pre_2.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/0/link/260826pre_1.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/01/link/260826pre_3.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/010/link/260826pre_qa.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/02/link/260826pre_4.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/03/link/260826pre_5.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/04/link/260826pre_2.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/06/link/260826pre_2_withnote.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/07/link/260826pre_3_withnote.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/08/link/260826pre_4_withnote.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/013/linkList/09/link/260826pre_5_withnote.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/0/link/20210308pre_1.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/00/link/20210308pre_2.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/02/linkList/01/link/20210308pre_3.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/05/linkList/0/link/20220307pre.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/07/linkList/01/link/20230315.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/0/link/240304pre_1.pdf",
+        "https://ir.nri.com/jp/ir/library/outline/main/01/teaserItems1/08/linkList/01/link/20240304pre_2.pdf",
+        "https://ir.nri.com/jp/ir/management/plan/main/0/link/20260424_mediumtermmanagementplan.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/outline.html"
+    },
+    "nri-news": {
+      "content_sha256": "3e478ad9468b9cecc221542108b26d5b705866a51df3457f0322a425736dae6b",
+      "current_items": [
+        {
+          "title": "サステナビリティ",
+          "url": "https://www.nri.com/jp/sustainability/index.html"
+        },
+        {
+          "title": "トップメッセージ",
+          "url": "https://www.nri.com/jp/sustainability/top_message.html"
+        },
+        {
+          "title": "NRIグループのサステナビリティ経営",
+          "url": "https://www.nri.com/jp/sustainability/management/index.html"
+        },
+        {
+          "title": "マテリアリティへの取り組み",
+          "url": "https://www.nri.com/jp/sustainability/materiality/index.html"
+        },
+        {
+          "title": "情報セキュリティ対策についての宣言文",
+          "url": "https://www.nri.com/jp/security_declare.html"
+        }
+      ],
+      "etag": "\"45a2d260337d2f279d4fea15653b975c\"",
+      "last_modified": "Thu, 06 Nov 2025 02:42:30 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://www.nri.com/jp/security_declare.html",
+        "https://www.nri.com/jp/sustainability/index.html",
+        "https://www.nri.com/jp/sustainability/management/index.html",
+        "https://www.nri.com/jp/sustainability/materiality/index.html",
+        "https://www.nri.com/jp/sustainability/top_message.html"
+      ],
+      "url": "https://www.nri.com/jp/news"
+    },
+    "nri-securities-report": {
+      "content_sha256": "bdcec33e4a5a1d03c5bb04f7f3933fb214866ee0f6a582ba796d7fd265461139",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/library/securities/main/01/teaserItems1/0118/linkList/0/link/test0.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/securities/main/01/teaserItems1/0118/linkList/0/link/test0.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:f076fdc6-dd40-450e-82a0-870ae62ccbbd/S100YBM8.pdf"
+        },
+        {
+          "title": "半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:aa25b0e7-3402-4bef-a621-acf7734e05c7/S100X3OB.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:5c15a6a5-cfdb-41ed-b19b-a2eafca64c1e/S100VZKL.pdf"
+        },
+        {
+          "title": "半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:b4233766-21df-495b-9a11-37857069ebbd/S100URBN.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:90c13476-916f-4cbf-bae3-88b57d963929/S100TQUZ.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:b227f6f3-7413-415a-b9e5-44a923b9d8b4/S100SV24.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:22e9bc32-a396-439a-a799-44c71eb10d5c/S100S9JD.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:60f0b4bf-ea88-4574-922c-56ce96d9b191/S100ROH2.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:ab65b6e3-c35b-4354-9e7d-12c07c6c3511/S100R4IT.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:abacaa79-5882-4a71-affc-22e0f786d6d5/S100Q7RL.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:b9fc3d02-025e-4134-8e98-71478a8b5735/S100PJT9.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:fcb9bd90-fbb8-4044-9ee2-501d06fe9a79/S100P0RA.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:86a1c415-0945-4095-beb0-575d07c18184/S100OBJK.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:34bcebca-ce33-46c9-89e5-21cf3c21e8ff/S100NGO6.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:cfb96831-7ca9-4ef2-847f-e5b01e337590/S100MTNY.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:50cfbd77-8e05-4f03-b025-de33228a9a50/S100M9E3.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:0b0f0002-1dfb-4cc0-afec-169b5503df83/S100LM5W.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:4dc6fad4-2a13-420b-972c-54bc5a3934ac/S100KQX0.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:8a16a627-73d5-4a29-ba8d-7f0ee7bb2204/S100K5KQ.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:0247afe5-a5be-4888-8f7f-e23a3fe9ce53/S100JJ0L.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:1b9fb451-1932-41df-ba92-8e931260c6fd/S100IWKT.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:9ffcb8af-5045-4fab-bb63-80be728c6286/S100I0UW.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:45e00b82-074b-4859-a846-0e96ce94bf0d/S100HDK0.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:89cba56d-c8bf-4f7f-902c-5b854edfa9d5/S100GRIQ.pdf"
+        },
+        {
+          "title": "有価証券報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:3e8cc57e-e732-42ab-8467-5d6f221cfbde/S100G6WX.pdf"
+        },
+        {
+          "title": "第3四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:f94dbd5e-2c07-4b13-9404-5956fc9619c9/S100F7JZ.pdf"
+        },
+        {
+          "title": "第2四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:cc1122e1-e2a1-486b-8a5c-56f90e21ddd5/S100ED3M.pdf"
+        },
+        {
+          "title": "第1四半期 四半期報告書",
+          "url": "https://data.swcms.net/file/nri-ir/dam/jcr:e2a86ddc-b472-46e3-a85b-a81caf000fdc/S100DQM3.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/securities/main/00/teaserItems1/0/linkList/0/link/File322658504.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/securities/main/00/teaserItems1/0/linkList/0/link/File322658504.pdf"
+        }
+      ],
+      "etag": "\"15479-65c30c1982840\"",
+      "last_modified": "Thu, 24 Sep 2026 01:45:36 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://data.swcms.net/file/nri-ir/dam/jcr:0247afe5-a5be-4888-8f7f-e23a3fe9ce53/S100JJ0L.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:0b0f0002-1dfb-4cc0-afec-169b5503df83/S100LM5W.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:1b9fb451-1932-41df-ba92-8e931260c6fd/S100IWKT.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:22e9bc32-a396-439a-a799-44c71eb10d5c/S100S9JD.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:34bcebca-ce33-46c9-89e5-21cf3c21e8ff/S100NGO6.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:3e8cc57e-e732-42ab-8467-5d6f221cfbde/S100G6WX.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:45e00b82-074b-4859-a846-0e96ce94bf0d/S100HDK0.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:4dc6fad4-2a13-420b-972c-54bc5a3934ac/S100KQX0.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:50cfbd77-8e05-4f03-b025-de33228a9a50/S100M9E3.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:5c15a6a5-cfdb-41ed-b19b-a2eafca64c1e/S100VZKL.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:60f0b4bf-ea88-4574-922c-56ce96d9b191/S100ROH2.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:86a1c415-0945-4095-beb0-575d07c18184/S100OBJK.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:89cba56d-c8bf-4f7f-902c-5b854edfa9d5/S100GRIQ.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:8a16a627-73d5-4a29-ba8d-7f0ee7bb2204/S100K5KQ.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:90c13476-916f-4cbf-bae3-88b57d963929/S100TQUZ.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:9ffcb8af-5045-4fab-bb63-80be728c6286/S100I0UW.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:aa25b0e7-3402-4bef-a621-acf7734e05c7/S100X3OB.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:ab65b6e3-c35b-4354-9e7d-12c07c6c3511/S100R4IT.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:abacaa79-5882-4a71-affc-22e0f786d6d5/S100Q7RL.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:b227f6f3-7413-415a-b9e5-44a923b9d8b4/S100SV24.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:b4233766-21df-495b-9a11-37857069ebbd/S100URBN.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:b9fc3d02-025e-4134-8e98-71478a8b5735/S100PJT9.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:cc1122e1-e2a1-486b-8a5c-56f90e21ddd5/S100ED3M.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:cfb96831-7ca9-4ef2-847f-e5b01e337590/S100MTNY.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:e2a86ddc-b472-46e3-a85b-a81caf000fdc/S100DQM3.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:f076fdc6-dd40-450e-82a0-870ae62ccbbd/S100YBM8.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:f94dbd5e-2c07-4b13-9404-5956fc9619c9/S100F7JZ.pdf",
+        "https://data.swcms.net/file/nri-ir/dam/jcr:fcb9bd90-fbb8-4044-9ee2-501d06fe9a79/S100P0RA.pdf",
+        "https://ir.nri.com/jp/ir/library/securities/main/00/teaserItems1/0/linkList/0/link/File322658504.pdf",
+        "https://ir.nri.com/jp/ir/library/securities/main/01/teaserItems1/0118/linkList/0/link/test0.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/securities.html"
+    },
+    "nri-shareholders": {
+      "content_sha256": "19e8a99b4139d698365bf7d8cd911d7cc411474b92259de8c67910608932bbd5",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/010/link/61ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/010/link/61ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/011/link/20260622.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/011/link/20260622.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/012/link/61soukai.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/012/link/61soukai.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/00/link/61web.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/00/link/61web.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/09/link/60ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/09/link/60ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/011/link/20250623.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/011/link/20250623.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/012/link/0305.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/012/link/0305.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/010/link/60soukai.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/010/link/60soukai.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/00/link/60web.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/00/link/60web.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/08/link/59ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/08/link/59ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/010/link/20240624.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/010/link/20240624.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/09/link/59soukai.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/09/link/59soukai.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/00/link/59web.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/00/link/59web.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/01/link/58ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/01/link/58ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/02/link/20230626.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/02/link/20230626.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/07/link/58soukai.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/07/link/58soukai.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/00/link/58web.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/00/link/58web.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/05/link/57ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/05/link/57ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/06/link/20220621%20.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/06/link/20220621%20.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/07/link/57soukai.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/07/link/57soukai.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/00/link/57web.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/00/link/57web.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/02/link/57web-2.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/02/link/57web-2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/01/link/57appendix.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/01/link/57appendix.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/04/link/56ketsugi.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/04/link/56ketsugi.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/06/link/20210622.pdf",
+          "url": "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/06/link/20210622.pdf"
+        }
+      ],
+      "etag": "\"12e3a-65c314fc4a828\"",
+      "last_modified": "Thu, 24 Sep 2026 02:25:21 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/00/link/60web.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/010/link/60soukai.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/011/link/20250623.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/012/link/0305.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/09/link/60ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/00/link/59web.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/010/link/20240624.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/08/link/59ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0114/teaserItems1/0/linkList/09/link/59soukai.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/00/link/61web.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/010/link/61ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/011/link/20260622.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/0118/teaserItems1/0/linkList/012/link/61soukai.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/00/link/57web.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/01/link/57appendix.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/02/link/57web-2.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/05/link/57ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/06/link/20220621%20.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/012/teaserItems1/0/linkList/07/link/57soukai.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/04/link/56ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/06/link/20210622.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/00/link/58web.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/01/link/58ketsugi.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/02/link/20230626.pdf",
+        "https://ir.nri.com/jp/ir/stock/meeting/main/019/teaserItems1/0/linkList/07/link/58soukai.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/stock/meeting.html"
+    },
+    "nri-small-meeting": {
+      "content_sha256": "d416a6e445cf02d6103cbb9c81ace12194275acb0e2a77de21208e5bf3f4c839",
+      "current_items": [
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/0/link/20260612_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/0/link/20260612_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/00/link/20260612_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/00/link/20260612_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/0/link/20260528_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/0/link/20260528_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/00/link/20260528_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/00/link/20260528_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/0/link/20251203_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/0/link/20251203_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/00/link/20251203_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/00/link/20251203_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/0/link/20250527_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/0/link/20250527_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/00/link/20250527_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/00/link/20250527_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/0/link/20250516_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/0/link/20250516_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/00/link/20250516_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/00/link/20250516_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/0/link/20241121_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/0/link/20241121_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/00/link/20241121_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/00/link/20241121_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/09/linkList/0/link/20241114_meeting.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/09/linkList/0/link/20241114_meeting.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/0/link/20240530_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/0/link/20240530_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/00/link/20240530_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/00/link/20240530_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/0/link/20240529_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/0/link/20240529_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/00/link/20240529_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/00/link/20240529_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/0/link/20231220_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/0/link/20231220_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/00/link/20231220_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/00/link/20231220_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/0/link/20231130_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/0/link/20231130_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/00/link/20231130_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/00/link/20231130_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/012/linkList/0/link/20231116.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/012/linkList/0/link/20231116.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/0/link/20230616_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/0/link/20230616_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/00/link/20230616_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/00/link/20230616_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/0/link/20230526_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/0/link/20230526_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/00/link/20230526_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/00/link/20230526_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/0/link/20220601_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/0/link/20220601_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/00/link/20220601_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/00/link/20220601_meeting_2.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/0/link/20220518_meeting_1.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/0/link/20220518_meeting_1.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/00/link/20220518_meeting_2.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/00/link/20220518_meeting_2.pdf"
+        }
+      ],
+      "etag": "\"12f3a-65c31ce6aedb8\"",
+      "last_modified": "Thu, 24 Sep 2026 03:00:46 GMT",
+      "last_status": 200,
+      "seen_urls": [
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/0/link/20250516_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/00/link/20250516_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/0/link/20250527_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/011/linkList/00/link/20250527_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/0/link/20251203_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/012/linkList/00/link/20251203_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/0/link/20220601_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/08/linkList/00/link/20220601_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/0/link/20220518_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/00/link/20220518_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/0/link/20230526_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/010/linkList/00/link/20230526_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/012/linkList/0/link/20231116.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/0/link/20231130_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/014/linkList/00/link/20231130_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/0/link/20231220_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/016/linkList/00/link/20231220_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/0/link/20230616_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/016/teaserItems2/09/linkList/00/link/20230616_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/0/link/20240529_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/010/linkList/00/link/20240529_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/0/link/20240530_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/011/linkList/00/link/20240530_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/0/link/20241121_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/013/linkList/00/link/20241121_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/018/teaserItems2/09/linkList/0/link/20241114_meeting.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/0/link/20260528_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/010/linkList/00/link/20260528_meeting_2.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/0/link/20260612_meeting_1.pdf",
+        "https://ir.nri.com/jp/ir/library/smallmtg/main/019/teaserItems2/011/linkList/00/link/20260612_meeting_2.pdf"
+      ],
+      "url": "https://ir.nri.com/jp/ir/library/smallmtg.html"
+    },
+    "nttdata-news": {
+      "content_sha256": "164c5ee7eb96a71cd56bc47962469067e68672cead7b8ca6d9b97e132db580a7",
+      "current_items": [
+        {
+          "title": "https://www.nttdata.com/global/en",
+          "url": "https://www.nttdata.com/global/en"
+        },
+        {
+          "title": "Industries",
+          "url": "https://www.nttdata.com/global/en/industries"
+        },
+        {
+          "title": "Automotive",
+          "url": "https://www.nttdata.com/global/en/industries/automotive"
+        },
+        {
+          "title": "Banking and Financial Services",
+          "url": "https://www.nttdata.com/global/en/industries/banking-financial-services"
+        },
+        {
+          "title": "Education and Research",
+          "url": "https://www.nttdata.com/global/en/industries/education-research"
+        },
+        {
+          "title": "Energy, Utilities and Natural Resources",
+          "url": "https://www.nttdata.com/global/en/industries/energy-utilities-natural-resources"
+        },
+        {
+          "title": "Healthcare",
+          "url": "https://www.nttdata.com/global/en/industries/healthcare"
+        },
+        {
+          "title": "Insurance",
+          "url": "https://www.nttdata.com/global/en/industries/insurance"
+        },
+        {
+          "title": "Life Sciences",
+          "url": "https://www.nttdata.com/global/en/industries/life-sciences"
+        },
+        {
+          "title": "Manufacturing",
+          "url": "https://www.nttdata.com/global/en/industries/manufacturing"
+        },
+        {
+          "title": "Private Equity",
+          "url": "https://www.nttdata.com/global/en/industries/private-equity"
+        },
+        {
+          "title": "Public Sector and Education",
+          "url": "https://www.nttdata.com/global/en/industries/public-sector-education"
+        },
+        {
+          "title": "Retail and Consumer Packaged Goods",
+          "url": "https://www.nttdata.com/global/en/industries/retail-and-consumer-packaged-goods"
+        },
+        {
+          "title": "Telco, Media and Technology",
+          "url": "https://www.nttdata.com/global/en/industries/telco-media-technology"
+        },
+        {
+          "title": "Travel, Transportation and Logistics",
+          "url": "https://www.nttdata.com/global/en/industries/travel-transportation-logistics"
+        },
+        {
+          "title": "Services",
+          "url": "https://www.nttdata.com/global/en/services"
+        },
+        {
+          "title": "AI Services",
+          "url": "https://www.nttdata.com/global/en/services/ai"
+        },
+        {
+          "title": "Application Services",
+          "url": "https://www.nttdata.com/global/en/services/application-services"
+        },
+        {
+          "title": "Business Process Services",
+          "url": "https://www.nttdata.com/global/en/services/business-process-services"
+        },
+        {
+          "title": "Cloud",
+          "url": "https://www.nttdata.com/global/en/services/cloud"
+        },
+        {
+          "title": "Connectivity",
+          "url": "https://www.nttdata.com/global/en/services/connectivity"
+        },
+        {
+          "title": "Consulting",
+          "url": "https://www.nttdata.com/global/en/services/business-consulting"
+        },
+        {
+          "title": "CX and Digital Products",
+          "url": "https://www.nttdata.com/global/en/services/cx-digital-products"
+        },
+        {
+          "title": "Cybersecurity",
+          "url": "https://www.nttdata.com/global/en/services/cybersecurity"
+        },
+        {
+          "title": "Data and Analytics",
+          "url": "https://www.nttdata.com/global/en/services/data-and-analytics"
+        },
+        {
+          "title": "Digital Workplace",
+          "url": "https://www.nttdata.com/global/en/services/digital-workplace"
+        },
+        {
+          "title": "Edge",
+          "url": "https://www.nttdata.com/global/en/services/edge"
+        },
+        {
+          "title": "Enterprise Application Platforms",
+          "url": "https://www.nttdata.com/global/en/services/enterprise-application-platforms"
+        },
+        {
+          "title": "Enterprise Networking",
+          "url": "https://www.nttdata.com/global/en/services/enterprise-networking"
+        },
+        {
+          "title": "Global Data Centers",
+          "url": "https://www.nttdata.com/global/en/services/global-data-centers"
+        },
+        {
+          "title": "Infrastructure Solutions",
+          "url": "https://www.nttdata.com/global/en/services/infrastructure-solutions"
+        },
+        {
+          "title": "Sustainability Services",
+          "url": "https://www.nttdata.com/global/en/services/sustainability-services"
+        },
+        {
+          "title": "Blog: NTT DATA Focus",
+          "url": "https://www.nttdata.com/global/en/insights/focus"
+        },
+        {
+          "title": "Client Cases",
+          "url": "https://www.nttdata.com/global/en/insights/client-cases"
+        },
+        {
+          "title": "Events",
+          "url": "https://www.nttdata.com/global/en/insights/event"
+        }
+      ],
+      "etag": "",
+      "last_modified": "",
+      "last_status": 200,
+      "seen_urls": [
+        "https://www.nttdata.com/global/en",
+        "https://www.nttdata.com/global/en/industries",
+        "https://www.nttdata.com/global/en/industries/automotive",
+        "https://www.nttdata.com/global/en/industries/banking-financial-services",
+        "https://www.nttdata.com/global/en/industries/education-research",
+        "https://www.nttdata.com/global/en/industries/energy-utilities-natural-resources",
+        "https://www.nttdata.com/global/en/industries/healthcare",
+        "https://www.nttdata.com/global/en/industries/insurance",
+        "https://www.nttdata.com/global/en/industries/life-sciences",
+        "https://www.nttdata.com/global/en/industries/manufacturing",
+        "https://www.nttdata.com/global/en/industries/private-equity",
+        "https://www.nttdata.com/global/en/industries/public-sector-education",
+        "https://www.nttdata.com/global/en/industries/retail-and-consumer-packaged-goods",
+        "https://www.nttdata.com/global/en/industries/telco-media-technology",
+        "https://www.nttdata.com/global/en/industries/travel-transportation-logistics",
+        "https://www.nttdata.com/global/en/insights/client-cases",
+        "https://www.nttdata.com/global/en/insights/event",
+        "https://www.nttdata.com/global/en/insights/focus",
+        "https://www.nttdata.com/global/en/services",
+        "https://www.nttdata.com/global/en/services/ai",
+        "https://www.nttdata.com/global/en/services/application-services",
+        "https://www.nttdata.com/global/en/services/business-consulting",
+        "https://www.nttdata.com/global/en/services/business-process-services",
+        "https://www.nttdata.com/global/en/services/cloud",
+        "https://www.nttdata.com/global/en/services/connectivity",
+        "https://www.nttdata.com/global/en/services/cx-digital-products",
+        "https://www.nttdata.com/global/en/services/cybersecurity",
+        "https://www.nttdata.com/global/en/services/data-and-analytics",
+        "https://www.nttdata.com/global/en/services/digital-workplace",
+        "https://www.nttdata.com/global/en/services/edge",
+        "https://www.nttdata.com/global/en/services/enterprise-application-platforms",
+        "https://www.nttdata.com/global/en/services/enterprise-networking",
+        "https://www.nttdata.com/global/en/services/global-data-centers",
+        "https://www.nttdata.com/global/en/services/infrastructure-solutions",
+        "https://www.nttdata.com/global/en/services/sustainability-services"
+      ],
+      "url": "https://www.nttdata.com/global/en/news/"
+    },
+    "openai-news": {
+      "current_items": [],
+      "last_error": "HTTPError: HTTP Error 403: Forbidden",
+      "seen_urls": [],
+      "url": "https://openai.com/news/"
+    }
+  }
 }

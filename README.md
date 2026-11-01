@@ -12,6 +12,10 @@ The central hypothesis is that NRI's business knowledge, core systems, cloud/dat
 
 Start with the [final assessment](08-synthesis/final-assessment.md), [strengths and risks](08-synthesis/strengths-risks.md), and [watchlist](08-synthesis/watchlist.md). These are dated research findings, not newly verified facts from this README translation.
 
+## Latest evidence review — 2026-10-31
+
+The [financial update](02-financial-market/financial-performance.md) incorporates the October 29 interim results and revised company forecasts. The [NRI Secure backfill](sources/nri-secure-2026-backfill.md) records January–October coverage and remaining limitations. Historical chapters remain dated snapshots, not a claim that every statement was revalidated.
+
 ## Monthly refresh
 
 The Monthly NRI Source Monitor is scheduled for the first day of each month at 09:15 JST. It checks 18 sources, writes source-monitor records, and creates review issues when new primary material or important fetch failures are detected. Analysis text is updated only after evidence review.

@@ -3,6 +3,12 @@
 > 基準日: 2026-09-25  
 > Public-safe: 公開情報のみを使用。
 
+## 2026-10-31 差分評価
+
+[10月29日決算](../02-financial-market/financial-performance.md)を受け、国内収益性・セキュリティ需要には追加の裏付けが得られた。一方、コンサル部門の利益回復、AI単独の利益寄与、顧客成果、海外再建の検証は継続する。総合判断は **Positive / Execution-sensitive** を維持する（筆者分析）。[NRIセキュア遡及調査](../sources/nri-secure-2026-backfill.md)のサービス開始・調査発表を、そのまま業績成果へ置き換えない。
+
+以下は9月25日時点の分析本文を維持する。
+
 ## Executive conclusion
 
 2026年のNRIを最も正確に表現すると、

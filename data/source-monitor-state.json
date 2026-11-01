@@ -1,179 +1,171 @@
 {
   "initialized": true,
-  "last_run_jst": "2026-10-01T14:45:47+09:00",
+  "last_run_jst": "2026-11-01T14:55:54+09:00",
   "schema_version": 1,
   "sources": {
     "accenture-news": {
-      "content_sha256": "3ad2670199fd84e6949b4a46c3ae6576e667b3ce6e26165380a7922588c01d9d",
+      "content_sha256": "821a08725e5de5e41a919feb4b32ddee0553a46af9d71334886bb4a308e88d4e",
       "current_items": [],
       "etag": "",
-      "last_modified": "Mon, 07 Sep 2026 03:47:46 GMT",
+      "last_modified": "Fri, 16 Oct 2026 21:19:26 GMT",
       "last_status": 200,
       "seen_urls": [],
       "url": "https://newsroom.accenture.com/"
     },
     "anthropic-news": {
-      "content_sha256": "145ea3c51198234ab077d695505b49288affabd871b23fa7612cea58257a7018",
+      "content_sha256": "f55e7386a4f6ee82660e47efbe731335600a758113fa659c4f10a1c9a104cb60",
       "current_items": [
         {
-          "title": "Try Claude",
-          "url": "https://claude.ai/"
+          "title": "Announcements",
+          "url": "https://www.anthropic.com/news/announcements"
+        },
+        {
+          "title": "Introducing Claude Opus 5.5 Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "title": "https://www.anthropic.com/news/public-benefit-fund",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
+        },
+        {
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        },
+        {
+          "title": "Early progress on accelerating drug development with Claude We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        {
+          "title": "Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "title": "Introducing Claude Sonnet 5.5 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "title": "https://www.anthropic.com/features/making-of-claude-code",
+          "url": "https://www.anthropic.com/features/making-of-claude-code"
+        },
+        {
+          "title": "https://www.anthropic.com/features/claude-on-mars",
+          "url": "https://www.anthropic.com/features/claude-on-mars"
+        },
+        {
+          "title": "Features",
+          "url": "https://www.anthropic.com/news/features"
+        },
+        {
+          "title": "Agents",
+          "url": "https://www.anthropic.com/search?topic=agents"
+        },
+        {
+          "title": "Project Deal: our Claude-run marketplace experiment",
+          "url": "https://www.anthropic.com/features/project-deal"
+        },
+        {
+          "title": "AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        },
+        {
+          "title": "Partnerships",
+          "url": "https://www.anthropic.com/news/partnerships"
+        },
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        },
+        {
+          "title": "Product",
+          "url": "https://www.anthropic.com/news/product"
+        },
+        {
+          "title": "Open call for guest investigators in the life sciences",
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+        },
+        {
+          "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+        },
+        {
+          "title": "An update on independent evaluators",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        },
+        {
+          "title": "Policy",
+          "url": "https://www.anthropic.com/news/policy"
+        },
+        {
+          "title": "Preparing for the 2026 US midterms",
+          "url": "https://www.anthropic.com/news/2026-us-midterms"
+        },
+        {
+          "title": "Safeguards",
+          "url": "https://www.anthropic.com/news/safeguards"
+        },
+        {
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.anthropic.com/news/singapore-office-opening"
+        },
+        {
+          "title": "Strengthening our defenses against distillation attacks",
+          "url": "https://www.anthropic.com/news/distillation-defenses"
+        },
+        {
+          "title": "Introducing the Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        },
+        {
+          "title": "Security",
+          "url": "https://www.anthropic.com/news/security"
+        },
+        {
+          "title": "2026 Usage Policy update",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        },
+        {
+          "title": "Building on our commitment to American scientific discovery",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+        },
+        {
+          "title": "Expanding the Cyber Verification Program",
+          "url": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy"
+        },
+        {
+          "title": "Barclays scales Claude to upgrade operations and improve client experience",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude"
+        },
+        {
+          "title": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.",
+          "url": "https://www.anthropic.com/features/ebola-response"
+        },
+        {
+          "title": "Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "title": "Introducing the Life Sciences Verification Program",
+          "url": "https://www.anthropic.com/news/life-sciences-verification-program"
         },
         {
           "title": "How to get support",
           "url": "https://support.claude.com/en/articles/9015913-how-to-get-support"
         },
         {
-          "title": "Introducing Claude Sonnet 5.5 Announcements Sep 28, 2026 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
-          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+          "title": "Claude.ai",
+          "url": "https://claude.ai/"
         },
         {
-          "title": "Announcements Sep 22, 2026 Introducing Claude Opus 5.5 Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.",
-          "url": "https://www.anthropic.com/claude-opus-5-5"
-        },
-        {
-          "title": "Features Sep 22, 2026 The Situation Report A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.",
-          "url": "https://www.anthropic.com/features/ebola-response"
-        },
-        {
-          "title": "Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
-        },
-        {
-          "title": "Announcements Sep 10, 2026 Detecting and countering misuse of AI: September 2026 Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
-        },
-        {
-          "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-        },
-        {
-          "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
-          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-        },
-        {
-          "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
-          "url": "https://www.anthropic.com/news/life-sciences-verification-program"
-        },
-        {
-          "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
-          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
-        },
-        {
-          "title": "Aug 31, 2026 Announcements Improving our alignment and security efforts",
-          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
-        },
-        {
-          "title": "Aug 27, 2026 Announcements Previewing the Model Hardware Standard",
-          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-        },
-        {
-          "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
-          "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
-        },
-        {
-          "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-          "url": "https://www.anthropic.com/news/wellbeing-research-grants"
-        },
-        {
-          "title": "Aug 14, 2026 Announcements How Claude’s text watermark works",
-          "url": "https://www.anthropic.com/news/claude-text-watermark"
-        },
-        {
-          "title": "Aug 7, 2026 Product Improving Fable 5's biology safeguards",
-          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
-        },
-        {
-          "title": "Claude",
-          "url": "https://claude.com/product/overview"
-        },
-        {
-          "title": "Claude Code",
-          "url": "https://claude.com/product/claude-code"
-        },
-        {
-          "title": "Claude Code Enterprise",
-          "url": "https://claude.com/product/claude-code/enterprise"
-        },
-        {
-          "title": "Claude Cowork",
-          "url": "https://claude.com/product/cowork"
-        },
-        {
-          "title": "@Claude",
-          "url": "https://claude.com/product/tag"
-        },
-        {
-          "title": "Claude Design",
-          "url": "https://claude.com/product/design"
-        },
-        {
-          "title": "Claude Science",
-          "url": "https://claude.com/product/claude-science"
-        },
-        {
-          "title": "Claude Security",
-          "url": "https://claude.com/product/claude-security"
-        },
-        {
-          "title": "Claude in Chrome",
-          "url": "https://claude.com/claude-in-chrome"
-        },
-        {
-          "title": "Claude for Microsoft 365",
-          "url": "https://claude.com/claude-for-microsoft-365"
-        },
-        {
-          "title": "Skills",
-          "url": "https://www.claude.com/skills"
-        },
-        {
-          "title": "Download app",
-          "url": "https://claude.ai/download"
-        },
-        {
-          "title": "Pricing",
-          "url": "https://claude.com/pricing"
-        },
-        {
-          "title": "Mythos",
-          "url": "https://www.anthropic.com/claude/mythos"
-        },
-        {
-          "title": "Fable",
-          "url": "https://www.anthropic.com/claude/fable"
-        },
-        {
-          "title": "Opus",
-          "url": "https://www.anthropic.com/claude/opus"
-        },
-        {
-          "title": "Sonnet",
-          "url": "https://www.anthropic.com/claude/sonnet"
-        },
-        {
-          "title": "Haiku",
-          "url": "https://www.anthropic.com/claude/haiku"
-        },
-        {
-          "title": "AI agents",
-          "url": "https://claude.com/solutions/agents"
-        },
-        {
-          "title": "Code modernization",
-          "url": "https://claude.com/solutions/code-modernization"
-        },
-        {
-          "title": "Coding",
-          "url": "https://claude.com/solutions/coding"
-        },
-        {
-          "title": "Commerce",
-          "url": "https://claude.com/solutions/commerce"
-        },
-        {
-          "title": "Customer support",
-          "url": "https://claude.com/solutions/customer-support"
+          "title": "Claude console",
+          "url": "https://platform.claude.com/"
         }
       ],
       "etag": "",
@@ -198,8 +190,10 @@
         "https://claude.com/solutions/coding",
         "https://claude.com/solutions/commerce",
         "https://claude.com/solutions/customer-support",
+        "https://platform.claude.com/",
         "https://support.claude.com/en/articles/9015913-how-to-get-support",
         "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://www.anthropic.com/claude-haiku-5-5",
         "https://www.anthropic.com/claude-opus-5-5",
         "https://www.anthropic.com/claude-sonnet-5-5",
         "https://www.anthropic.com/claude/fable",
@@ -207,24 +201,53 @@
         "https://www.anthropic.com/claude/mythos",
         "https://www.anthropic.com/claude/opus",
         "https://www.anthropic.com/claude/sonnet",
+        "https://www.anthropic.com/features/claude-on-mars",
         "https://www.anthropic.com/features/ebola-response",
+        "https://www.anthropic.com/features/making-of-claude-code",
+        "https://www.anthropic.com/features/project-deal",
+        "https://www.anthropic.com/news/2026-us-midterms",
+        "https://www.anthropic.com/news/2026-usage-policy-update",
         "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "https://www.anthropic.com/news/announcements",
+        "https://www.anthropic.com/news/anthropic-cyber-mission",
+        "https://www.anthropic.com/news/barclays-scales-claude",
+        "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
         "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "https://www.anthropic.com/news/claude-frontier-academy",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://www.anthropic.com/news/cyber-verification-program",
+        "https://www.anthropic.com/news/distillation-defenses",
+        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
         "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+        "https://www.anthropic.com/news/expanding-partnership-gsa",
         "https://www.anthropic.com/news/expanding-support-for-scientists",
+        "https://www.anthropic.com/news/features",
+        "https://www.anthropic.com/news/genesis-mission-commitment",
         "https://www.anthropic.com/news/improving-alignment-security-efforts",
         "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
         "https://www.anthropic.com/news/life-sciences-verification-program",
         "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+        "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+        "https://www.anthropic.com/news/partnerships",
+        "https://www.anthropic.com/news/policy",
+        "https://www.anthropic.com/news/product",
+        "https://www.anthropic.com/news/public-benefit-fund",
+        "https://www.anthropic.com/news/s1-sec",
+        "https://www.anthropic.com/news/safeguards",
+        "https://www.anthropic.com/news/security",
+        "https://www.anthropic.com/news/singapore-office-opening",
         "https://www.anthropic.com/news/wellbeing-research-grants",
+        "https://www.anthropic.com/research/early-progress-drug-development",
+        "https://www.anthropic.com/search?topic=agents",
         "https://www.anthropic.com/threat-intelligence-report-september-2026",
         "https://www.claude.com/skills"
       ],
       "url": "https://www.anthropic.com/news"
     },
     "deloitte-news": {
-      "content_sha256": "a512d30aba869991da7aa794e12e9c7767fccc7f0ab2c603cdd531edaaf333e2",
+      "content_sha256": "7f4275fc107fec6995388c4f367e8fe3032e4711a05c9d690980cd7fe304b051",
       "current_items": [
         {
           "title": "Artificial Intelligence",
@@ -275,8 +298,8 @@
           "url": "https://www.deloitte.com/global/en/services/consulting/services/engineering-ai-data.html?icid=bn_core-business-operations"
         }
       ],
-      "etag": "\"3dae4-65cbcff0e2882-gzip\"",
-      "last_modified": "Thu, 01 Oct 2026 01:04:22 GMT",
+      "etag": "\"3d686-65f2da07ce863-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 02:17:10 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://www.deloitte.com/global/en/industries/consumer/about/airlines-and-aviation.html?icid=top_airlines-and-aviation",
@@ -295,7 +318,7 @@
       "url": "https://www.deloitte.com/global/en/about/press-room.html"
     },
     "fujitsu-research-news": {
-      "content_sha256": "5d3ca8e5a95218def5ca37caeb3aa3e137c465ee192cd4fbef20ac29c3269b2a",
+      "content_sha256": "bd5dea8e9b18970a76c876433e601eb52f222c04eed19061c2baddb2d6b7eae0",
       "current_items": [
         {
           "title": "AI",
@@ -304,6 +327,14 @@
         {
           "title": "Data&Security",
           "url": "https://portal.research.global.fujitsu.com/data-security/"
+        },
+        {
+          "title": "2026年10月30日 告知 空間World Modelの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/spatial-world-model/"
+        },
+        {
+          "title": "2026年10月19日 告知 企業間マルチAIエージェント連携によるレジリエントなサプライチェーンマネジメントの技術ページを公開",
+          "url": "https://documents.research.global.fujitsu.com/resilient-supply-chain/"
         },
         {
           "title": "2026年10月01日 告知 Fujitsu AI Ethics for Fairnessのアプリケーションの公開を終了",
@@ -346,8 +377,8 @@
           "url": "https://documents.research.global.fujitsu.com/trustable-internet/"
         }
       ],
-      "etag": "\"0x8DF1F58139B8C47\"",
-      "last_modified": "Thu, 01 Oct 2026 01:05:25 GMT",
+      "etag": "\"0x8DF36656004F576\"",
+      "last_modified": "Fri, 30 Oct 2026 09:08:34 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://documents.research.global.fujitsu.com/Data-Driven-Decision-Making/",
@@ -358,6 +389,8 @@
         "https://documents.research.global.fujitsu.com/domain-specific-ai/",
         "https://documents.research.global.fujitsu.com/materials-informatics/",
         "https://documents.research.global.fujitsu.com/multi-ai-agent-framework/",
+        "https://documents.research.global.fujitsu.com/resilient-supply-chain/",
+        "https://documents.research.global.fujitsu.com/spatial-world-model/",
         "https://documents.research.global.fujitsu.com/takane-enterprise-llm-with-generative-ai-reconstruction/",
         "https://documents.research.global.fujitsu.com/trustable-internet/",
         "https://portal.research.global.fujitsu.com/data-security/",
@@ -366,7 +399,7 @@
       "url": "https://portal.research.global.fujitsu.com/news.html"
     },
     "hitachi-press": {
-      "content_sha256": "58385e3f16485e07499f1d0e20ba18d9b1ac4131d60c796af6f1a4b007c1c410",
+      "content_sha256": "b833c8e94fdc7b25b13df82759654da37cfa1d4fe4707cf97453e1a0725d7cf1",
       "current_items": [
         {
           "title": "車両 (英語)",
@@ -437,7 +470,7 @@
       "url": "https://www.hitachi.com/ja-jp/press/"
     },
     "ibm-news": {
-      "content_sha256": "1d41db4602134250c1fd1b879e56efb970c3f2107036c4ef96eb9bec45861946",
+      "content_sha256": "31adb74c3922f43233f0cc090b335297cadd5c947d9ba165b384e53b07ff8682",
       "current_items": [
         {
           "title": "Artificial intelligence",
@@ -452,40 +485,36 @@
           "url": "https://securityintelligence.com/"
         },
         {
-          "title": "IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance",
-          "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance"
+          "title": "IBM Introduces Identity and Control for AI Agents, Securing Frontier Intelligence for the Enterprise",
+          "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise"
         },
         {
-          "title": "Extending AI-Powered IBM Z application modernization with self-hosted deployment and new analysis capabilities",
-          "url": "https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities"
+          "title": "Securing AI-assisted software delivery with IBM Bob Premium Package for DevSecOps",
+          "url": "https://www.ibm.com/new/announcements/securing-ai-assisted-software-delivery-with-ibm-bob-premium-package-for-devsecops"
         },
         {
-          "title": "IBM Study: As AI Scales Enterprise-Wide, CFOs Play an Expanded Role in Transformation",
-          "url": "https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation"
+          "title": "IBM Concert platform advances the path to cross-domain agentic IT operations",
+          "url": "https://www.ibm.com/new/announcements/ibm-concert-platform-advances-the-path-to-cross-domain-agentic-it-operations"
         },
         {
-          "title": "Building Trust Into the Next Generation of AI Agents",
-          "url": "https://newsroom.ibm.com/blog-building-trust-into-the-next-generation-of-ai-agents"
+          "title": "IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities at TechXchange 2026",
+          "url": "https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026"
         },
         {
-          "title": "IBM Acquires Logiq Consulting to Expand Secure Digital Transformation and Cybersecurity Capabilities in the UK",
-          "url": "https://newsroom.ibm.com/2026-09-24-ibm-acquires-logiq-consulting-to-expand-secure-digital-transformation-and-cybersecurity-capabilities-in-the-uk"
+          "title": "IBM Agent Identity is now generally available: Building trust for the agentic era",
+          "url": "https://www.ibm.com/new/announcements/ibm-agent-identity-is-now-generally-available-building-trust-for-the-agentic-era"
         },
         {
-          "title": "Marist University and IBM Launch Innovation Incubator with IBM z17, Expanding 50-Year Partnership to Advance AI Research and Student Career Readiness",
-          "url": "https://newsroom.ibm.com/2026-09-22-marist-university-and-ibm-launch-innovation-incubator-with-ibm-z17,-expanding-50-year-partnership-to-advance-ai-research-and-student-career-readiness"
+          "title": "Terraform advances infrastructure lifecycle management for the agentic era",
+          "url": "https://www.ibm.com/new/announcements/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era"
         },
         {
-          "title": "New IBM CHRO Study: AI Puts Critical Thinking at the Center of Workforce Priorities",
-          "url": "https://newsroom.ibm.com/2026-09-21-new-ibm-chro-study-ai-puts-critical-thinking-at-the-center-of-workforce-priorities"
-        },
-        {
-          "title": "IBM and NASA Release Open-Source AI Model to Support Lunar Exploration",
-          "url": "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration"
+          "title": "Securing AI agents from identity to access to action",
+          "url": "https://www.ibm.com/new/announcements/securing-ai-agents-from-identity-to-access-to-action"
         }
       ],
       "etag": "",
-      "last_modified": "Thu, 01 Oct 2026 04:24:26 GMT",
+      "last_modified": "Sun, 01 Nov 2026 05:41:31 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration",
@@ -494,44 +523,43 @@
         "https://newsroom.ibm.com/2026-09-24-ibm-acquires-logiq-consulting-to-expand-secure-digital-transformation-and-cybersecurity-capabilities-in-the-uk",
         "https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation",
         "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+        "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
         "https://newsroom.ibm.com/blog-building-trust-into-the-next-generation-of-ai-agents",
         "https://newsroom.ibm.com/latest-news-artificial-intelligence",
         "https://newsroom.ibm.com/latest-news-hybrid-cloud",
         "https://securityintelligence.com/",
-        "https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities"
+        "https://www.ibm.com/new/announcements/ibm-agent-identity-is-now-generally-available-building-trust-for-the-agentic-era",
+        "https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities",
+        "https://www.ibm.com/new/announcements/ibm-concert-platform-advances-the-path-to-cross-domain-agentic-it-operations",
+        "https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026",
+        "https://www.ibm.com/new/announcements/securing-ai-agents-from-identity-to-access-to-action",
+        "https://www.ibm.com/new/announcements/securing-ai-assisted-software-delivery-with-ibm-bob-premium-package-for-devsecops",
+        "https://www.ibm.com/new/announcements/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era"
       ],
       "url": "https://newsroom.ibm.com/"
     },
     "nri-ai-portal": {
-      "content_sha256": "e4d4ed0d6e6b3c2194bdc65e2d90d65d1872c0368fec81dbc741b3591658f98c",
+      "content_sha256": "7604f16bb1b6b1c827c5bf26884369aa786e6ec5d4590ec7d89806a9f51379e1",
       "current_items": [
+        {
+          "title": "2026/10/22 野村総合研究所とNRIセキュア、AI駆動型サイバー攻撃への経営層の対応力強化を支援",
+          "url": "https://www.nri.com/jp/news/newsrelease/20261022_1.html"
+        },
+        {
+          "title": "2026/10/15 NRIセキュア、AI駆動開発のセキュリティ対策を支援するサービスを提供開始",
+          "url": "https://www.nri.com/jp/news/newsrelease/20261015_1.html"
+        },
         {
           "title": "2026/09/17 NRIセキュア、「フロンティアAI対応プロアクティブ脆弱性診断」のデータ取り扱い体制を強化",
           "url": "https://www.nri.com/jp/news/info/20260917_1.html"
         },
         {
-          "title": "2026/09/16 野村総合研究所、三菱重工業とAIを始めとしたデジタル技術を活用した業務プロセス改革への共同検討と実践活動を開始",
-          "url": "https://www.nri.com/jp/news/info/20260916_1.html"
+          "title": "https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp",
+          "url": "https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp"
         },
         {
-          "title": "2026/08/27 NRIセキュア、AIをはじめとするエマージングテクノロジーの利活用を支えるセキュリティガバナンス構築支援サービスを提供開始",
-          "url": "https://www.nri.com/jp/news/newsrelease/20260827_1.html"
-        },
-        {
-          "title": "203X : AIで拡張する社会",
-          "url": "https://www.nri.com/jp/service/souhatsu/extending_society_with_ai.html"
-        },
-        {
-          "title": "生成AIを活用した企業変革",
-          "url": "https://www.nri.com/jp/service/theme/ai/generative_ai.html"
-        },
-        {
-          "title": "NRI Solution Ai",
-          "url": "https://www.nri.com/jp/service/solution/solution_ai.html"
-        },
-        {
-          "title": "AIセキュリティ",
-          "url": "https://www.nri-secure.co.jp/service/ai-security"
+          "title": "AIサービス一覧",
+          "url": "https://www.nri.com/jp/service/theme/ai/index.html"
         },
         {
           "title": "2026/06/17 トピックス 野村総合研究所、AIロボット協会に参画～「フィジカルAX」を加速 ～",
@@ -570,8 +598,60 @@
           "url": "https://www.nri.com/jp/news/info/20240307_2.html"
         },
         {
+          "title": "2026/10/26 ASEANにおけるAI活用を成功に導くビジョンロードマップ",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202610_2/04.html"
+        },
+        {
+          "title": "2026/10/26 タイ製造業の転換点：AI投資をコスト削減から企業価値向上へ",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202610_2/03.html"
+        },
+        {
+          "title": "2026/10/26 ASEANコングロマリットのAI戦略",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202610_2/02.html"
+        },
+        {
+          "title": "2026/10/26 タイ国家AI戦略の最前線と日タイ協業の行方",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202610_2/01.html"
+        },
+        {
+          "title": "2026/10/20 フィジカルAI（日経文庫）",
+          "url": "https://www.nri.com/jp/knowledge/book/20261021.html"
+        },
+        {
+          "title": "2026/10/08 会話型CXデザイン ～AIのふるまいに”らしさ”を実装する～｜ウェビナー開催レポート",
+          "url": "https://www.nri.com/jp/media/column/scs_blog/20261008.html"
+        },
+        {
+          "title": "2026/10/06 製造業におけるAI・ロボット技術活用の潮流［後編］日本企業にとっての新たな事業機会",
+          "url": "https://www.nri.com/jp/media/column/mcs_blog/20261006.html"
+        },
+        {
+          "title": "2026/10/05 中国金融業界におけるAIエージェントの活用",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/07.html"
+        },
+        {
+          "title": "2026/10/05 AIエージェントの普及と金融インフラの将来図",
+          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/05.html"
+        },
+        {
+          "title": "2026/10/05 台湾におけるAI産業発展および政策からの示唆",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202609_2/03.html"
+        },
+        {
+          "title": "2026/10/05 米国AIインパクトから読み解く「グローバル×政策（Public）」の論点",
+          "url": "https://www.nri.com/jp/knowledge/publication/region_202609_2/01.html"
+        },
+        {
+          "title": "2026/10/05 フロンティアAI時代のサイバー安全保障",
+          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202608/05.html"
+        },
+        {
           "title": "2026/09/24 複雑化する社会の「意思決定」にAIをどう活かすか",
           "url": "https://www.nri.com/jp/media/column/mizutani/20260924.html"
+        },
+        {
+          "title": "2026/09/16 野村総合研究所、三菱重工業とAIを始めとしたデジタル技術を活用した業務プロセス改革への共同検討と実践活動を開始",
+          "url": "https://www.nri.com/jp/news/info/20260916_1.html"
         },
         {
           "title": "2026/09/07 オーケストラのボウイング決めにAI使ってみた話",
@@ -620,76 +700,45 @@
         {
           "title": "2026/08/03 AIと変わる製薬業界",
           "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/06.html"
-        },
-        {
-          "title": "2026/08/03 野村総合研究所、AIによる事業変革支援サービス「NRI AFT(AI Field Transformer)」を提供開始",
-          "url": "https://www.nri.com/jp/news/newsrelease/20260803_1.html"
-        },
-        {
-          "title": "2026/07/27 「見たいその瞬間」をAIが選んで超低遅延で届ける-「KYOJO CUP」で次世代リアルタイム映像配信を実証",
-          "url": "https://www.nri.com/jp/news/info/files/000064467.pdf"
-        },
-        {
-          "title": "2026/07/24 技術と主権の交差路：VivaTechnology 2026を振り返って",
-          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260724.html"
-        },
-        {
-          "title": "2026/07/06 生成AIの台頭を踏まえたインドGCCの活用ポテンシャル",
-          "url": "https://www.nri.com/jp/knowledge/publication/region_202606_2/04.html"
-        },
-        {
-          "title": "2026/07/06 フィジカルAIとの協働による次世代現場力の獲得",
-          "url": "https://www.nri.com/jp/knowledge/publication/chitekishisan_202605/03.html"
-        },
-        {
-          "title": "2026/07/06 生成AIで変容するデジタルクライム",
-          "url": "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202607/07.html"
-        },
-        {
-          "title": "2026/07/03 ハイパースケーラー（米国テック企業）のAI投資100兆円以上、ゴールドラッシュかダークファイバーの再来か ―後編―",
-          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260703.html"
-        },
-        {
-          "title": "2026/07/02 ハイパースケーラー（米国テック企業）のAI投資100兆円以上、ゴールドラッシュかダークファイバーの再来か ―前編―",
-          "url": "https://www.nri.com/jp/media/column/extending_society_with_ai/20260702.html"
-        },
-        {
-          "title": "2026/06/25 AI中心の経営",
-          "url": "https://www.nri.com/jp/knowledge/book/20260708.html"
-        },
-        {
-          "title": "2026/06/24 AIプロフェッショナルが挑む車いすラグビーの戦術提案",
-          "url": "https://www.nri.com/jp/media/journal/20260624.html"
-        },
-        {
-          "title": "2026/06/23 NRIセキュア、フロンティアAIモデルに対応したプロアクティブな脆弱性診断サービスを提供開始",
-          "url": "https://www.nri.com/jp/news/newsrelease/20260623_1.html"
         }
       ],
       "etag": "",
       "last_modified": "",
       "last_status": 200,
       "seen_urls": [
+        "https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp",
         "https://atlax.nri.co.jp/news/20250521/",
         "https://www.nri-secure.co.jp/service/ai-security",
         "https://www.nri.com/data/jp/news/files/000054634.pdf",
         "https://www.nri.com/jp/knowledge/book/20260708.html",
+        "https://www.nri.com/jp/knowledge/book/20261021.html",
         "https://www.nri.com/jp/knowledge/publication/chitekishisan_202605/03.html",
         "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/01.html",
         "https://www.nri.com/jp/knowledge/publication/chitekishisan_202606/06.html",
         "https://www.nri.com/jp/knowledge/publication/chitekishisan_202607/01.html",
+        "https://www.nri.com/jp/knowledge/publication/chitekishisan_202608/05.html",
         "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202607/07.html",
         "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/05.html",
         "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202608/08.html",
         "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202609/08.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/05.html",
+        "https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/07.html",
         "https://www.nri.com/jp/knowledge/publication/region_202606_2/04.html",
         "https://www.nri.com/jp/knowledge/publication/region_202608_2/02.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202609_2/01.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202609_2/03.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202610_2/01.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202610_2/02.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202610_2/03.html",
+        "https://www.nri.com/jp/knowledge/publication/region_202610_2/04.html",
         "https://www.nri.com/jp/media/column/extending_society_with_ai/20260702.html",
         "https://www.nri.com/jp/media/column/extending_society_with_ai/20260703.html",
         "https://www.nri.com/jp/media/column/extending_society_with_ai/20260724.html",
         "https://www.nri.com/jp/media/column/mcs_blog/20260818.html",
+        "https://www.nri.com/jp/media/column/mcs_blog/20261006.html",
         "https://www.nri.com/jp/media/column/mizutani/20260924.html",
         "https://www.nri.com/jp/media/column/scs_blog/20260807.html",
+        "https://www.nri.com/jp/media/column/scs_blog/20261008.html",
         "https://www.nri.com/jp/media/journal/20260624.html",
         "https://www.nri.com/jp/media/journal/20260820.html",
         "https://www.nri.com/jp/media/topics/20260617.html",
@@ -707,9 +756,12 @@
         "https://www.nri.com/jp/news/newsrelease/20260623_1.html",
         "https://www.nri.com/jp/news/newsrelease/20260803_1.html",
         "https://www.nri.com/jp/news/newsrelease/20260827_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20261015_1.html",
+        "https://www.nri.com/jp/news/newsrelease/20261022_1.html",
         "https://www.nri.com/jp/service/solution/solution_ai.html",
         "https://www.nri.com/jp/service/souhatsu/extending_society_with_ai.html",
-        "https://www.nri.com/jp/service/theme/ai/generative_ai.html"
+        "https://www.nri.com/jp/service/theme/ai/generative_ai.html",
+        "https://www.nri.com/jp/service/theme/ai/index.html"
       ],
       "url": "https://ai.nri.com/"
     },
@@ -765,8 +817,8 @@
           "url": "https://ir.nri.com/jp/ir/library/business-outline.html"
         }
       ],
-      "etag": "\"aa1f-65c315be1e238\"",
-      "last_modified": "Thu, 24 Sep 2026 02:28:44 GMT",
+      "etag": "\"aa1f-65f0798039b98\"",
+      "last_modified": "Fri, 30 Oct 2026 04:54:40 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/library/business-outline.html",
@@ -785,11 +837,19 @@
       "url": "https://ir.nri.com/jp/ir/library/businessplan.html"
     },
     "nri-financial": {
-      "content_sha256": "5e0a094ae9e9e54c4ce5df2ec07c6209a5e838ebef7c39c9f9ee463e0491bcf4",
+      "content_sha256": "b42e220815bc139d70fb5230c3095e2e99a9fa064f09eefcb154ac9107954cd3",
       "current_items": [
         {
           "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf",
           "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf"
+        },
+        {
+          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx",
+          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx"
         },
         {
           "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf",
@@ -938,18 +998,10 @@
         {
           "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/02/link/20231026_financialresultspresentaionqa.pdf",
           "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0115/linkList/02/link/20231026_financialresultspresentaionqa.pdf"
-        },
-        {
-          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/0/link/20240131_financialresultspresentation.pdf",
-          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/0/link/20240131_financialresultspresentation.pdf"
-        },
-        {
-          "title": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/03/link/20240131_financialresultspresentationwithnote.pdf",
-          "url": "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/02/linkList/03/link/20240131_financialresultspresentationwithnote.pdf"
         }
       ],
-      "etag": "\"4cf10-65c30ba0d9998\"",
-      "last_modified": "Thu, 24 Sep 2026 01:43:29 GMT",
+      "etag": "\"4d6c1-65f06e90ad278\"",
+      "last_modified": "Fri, 30 Oct 2026 04:05:44 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf",
@@ -972,6 +1024,8 @@
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx",
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf",
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/03/link/20260730_financialresultspresentaionqa.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf",
+        "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx",
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/0/link/20241030_financialresultspresentation.pdf",
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/01/link/20241030_financialresultspresentationwithnote.pdf",
         "https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0112/linkList/02/link/20241030_financialresultspresentaionqa.pdf",
@@ -1022,15 +1076,15 @@
       "url": "https://www.nri.com/jp/company/co_governance/governance.html"
     },
     "nri-integrated-report": {
-      "content_sha256": "2dc491c558cc63bd93a12a2cbf3d84b6625f5eff230f86a86e66527f38cd7a86",
+      "content_sha256": "5b69433b38e35b1472ab0582d555a1f4d82d41bbccf8e3cc3dfa2dff13da54b6",
       "current_items": [
         {
-          "title": "NRI統合レポート2026 ＜全文表示＞（9,066KB）",
+          "title": "NRI統合レポート2026 ＜全文表示＞（19,760KB）",
           "url": "https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf"
         }
       ],
-      "etag": "\"dbbd-65c30d3d05780\"",
-      "last_modified": "Thu, 24 Sep 2026 01:50:42 GMT",
+      "etag": "\"dbbe-65f099f115ab8\"",
+      "last_modified": "Fri, 30 Oct 2026 07:19:48 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf"
@@ -1137,8 +1191,8 @@
           "url": "https://ir.nri.com/jp/ir/library/business-outline.html"
         }
       ],
-      "etag": "\"be01-65c30e768ed98\"",
-      "last_modified": "Thu, 24 Sep 2026 01:56:10 GMT",
+      "etag": "\"be01-65f070678fc90\"",
+      "last_modified": "Fri, 30 Oct 2026 04:13:58 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/library/business-outline.html",
@@ -1328,8 +1382,8 @@
           "url": "https://ir.nri.com/jp/ir/library/securities/main/00/teaserItems1/0/linkList/0/link/File322658504.pdf"
         }
       ],
-      "etag": "\"15479-65c30c1982840\"",
-      "last_modified": "Thu, 24 Sep 2026 01:45:36 GMT",
+      "etag": "\"15479-65f06ea535808\"",
+      "last_modified": "Fri, 30 Oct 2026 04:06:06 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://data.swcms.net/file/nri-ir/dam/jcr:0247afe5-a5be-4888-8f7f-e23a3fe9ce53/S100JJ0L.pdf",
@@ -1469,8 +1523,8 @@
           "url": "https://ir.nri.com/jp/ir/stock/meeting/main/016/teaserItems1/0/linkList/06/link/20210622.pdf"
         }
       ],
-      "etag": "\"12e3a-65c314fc4a828\"",
-      "last_modified": "Thu, 24 Sep 2026 02:25:21 GMT",
+      "etag": "\"12e3a-65f076ecb3d58\"",
+      "last_modified": "Fri, 30 Oct 2026 04:43:08 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/stock/meeting/main/0113/teaserItems1/0/linkList/00/link/60web.pdf",
@@ -1625,8 +1679,8 @@
           "url": "https://ir.nri.com/jp/ir/library/smallmtg/main/015/teaserItems2/09/linkList/00/link/20220518_meeting_2.pdf"
         }
       ],
-      "etag": "\"12f3a-65c31ce6aedb8\"",
-      "last_modified": "Thu, 24 Sep 2026 03:00:46 GMT",
+      "etag": "\"12f3a-65f0797eafae8\"",
+      "last_modified": "Fri, 30 Oct 2026 04:54:38 GMT",
       "last_status": 200,
       "seen_urls": [
         "https://ir.nri.com/jp/ir/library/smallmtg/main/012/teaserItems2/010/linkList/0/link/20250516_meeting_1.pdf",
@@ -1663,7 +1717,7 @@
       "url": "https://ir.nri.com/jp/ir/library/smallmtg.html"
     },
     "nttdata-news": {
-      "content_sha256": "164c5ee7eb96a71cd56bc47962469067e68672cead7b8ca6d9b97e132db580a7",
+      "content_sha256": "3696bda0f03f59ee620f558d8516d13c83de8c21c2f33ee9a16438d098cadeca",
       "current_items": [
         {
           "title": "https://www.nttdata.com/global/en",

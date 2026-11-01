@@ -1,19 +1,366 @@
 # Latest Source Monitor
 
-> 自動生成: 2026-10-01 14:45 JST
+> 自動生成: 2026-11-01 14:55 JST
 > 分析本文・結論は自動で書き換えません。新規一次情報を検知したらレビュー候補として記録します。
 
 ## Summary
 
 - Checked sources: 18
 - Fetch OK: 16
-- New review candidates: 0
+- New review candidates: 58
 - Critical source failures: 0
-- Mode: baseline refresh
+- Mode: incremental diff
 
 ## New review candidates
 
-今回、新規リンクとして判定された候補はありません。
+### NRI IR 決算短信・説明会資料
+
+- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf)
+- Priority: critical
+- Suggested targets: sources/official-sources.md, 02-financial-market/financial-performance.md, 08-synthesis/watchlist.md, README.md
+
+### NRI IR 決算短信・説明会資料
+
+- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx)
+- Priority: critical
+- Suggested targets: sources/official-sources.md, 02-financial-market/financial-performance.md, 08-synthesis/watchlist.md, README.md
+
+### NRI AI Portal
+
+- [2026/10/22 野村総合研究所とNRIセキュア、AI駆動型サイバー攻撃への経営層の対応力強化を支援](https://www.nri.com/jp/news/newsrelease/20261022_1.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/15 NRIセキュア、AI駆動開発のセキュリティ対策を支援するサービスを提供開始](https://www.nri.com/jp/news/newsrelease/20261015_1.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp](https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [AIサービス一覧](https://www.nri.com/jp/service/theme/ai/index.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/26 ASEANにおけるAI活用を成功に導くビジョンロードマップ](https://www.nri.com/jp/knowledge/publication/region_202610_2/04.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/26 タイ製造業の転換点：AI投資をコスト削減から企業価値向上へ](https://www.nri.com/jp/knowledge/publication/region_202610_2/03.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/26 ASEANコングロマリットのAI戦略](https://www.nri.com/jp/knowledge/publication/region_202610_2/02.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/26 タイ国家AI戦略の最前線と日タイ協業の行方](https://www.nri.com/jp/knowledge/publication/region_202610_2/01.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/20 フィジカルAI（日経文庫）](https://www.nri.com/jp/knowledge/book/20261021.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/08 会話型CXデザイン ～AIのふるまいに”らしさ”を実装する～｜ウェビナー開催レポート](https://www.nri.com/jp/media/column/scs_blog/20261008.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/06 製造業におけるAI・ロボット技術活用の潮流［後編］日本企業にとっての新たな事業機会](https://www.nri.com/jp/media/column/mcs_blog/20261006.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/05 中国金融業界におけるAIエージェントの活用](https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/07.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/05 AIエージェントの普及と金融インフラの将来図](https://www.nri.com/jp/knowledge/publication/kinyu_itf_202610/05.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/05 台湾におけるAI産業発展および政策からの示唆](https://www.nri.com/jp/knowledge/publication/region_202609_2/03.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/05 米国AIインパクトから読み解く「グローバル×政策（Public）」の論点](https://www.nri.com/jp/knowledge/publication/region_202609_2/01.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### NRI AI Portal
+
+- [2026/10/05 フロンティアAI時代のサイバー安全保障](https://www.nri.com/jp/knowledge/publication/chitekishisan_202608/05.html)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Announcements](https://www.anthropic.com/news/announcements)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [https://www.anthropic.com/news/public-benefit-fund](https://www.anthropic.com/news/public-benefit-fund)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Early progress on accelerating drug development with Claude We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.](https://www.anthropic.com/claude-haiku-5-5)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [https://www.anthropic.com/features/making-of-claude-code](https://www.anthropic.com/features/making-of-claude-code)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [https://www.anthropic.com/features/claude-on-mars](https://www.anthropic.com/features/claude-on-mars)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Features](https://www.anthropic.com/news/features)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Agents](https://www.anthropic.com/search?topic=agents)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Project Deal: our Claude-run marketplace experiment](https://www.anthropic.com/features/project-deal)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Partnerships](https://www.anthropic.com/news/partnerships)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Product](https://www.anthropic.com/news/product)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Open call for guest investigators in the life sciences](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Policy](https://www.anthropic.com/news/policy)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Preparing for the 2026 US midterms](https://www.anthropic.com/news/2026-us-midterms)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Safeguards](https://www.anthropic.com/news/safeguards)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Anthropic opens Singapore office and signs MOU with the Government of Singapore](https://www.anthropic.com/news/singapore-office-opening)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Strengthening our defenses against distillation attacks](https://www.anthropic.com/news/distillation-defenses)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Security](https://www.anthropic.com/news/security)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [2026 Usage Policy update](https://www.anthropic.com/news/2026-usage-policy-update)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Building on our commitment to American scientific discovery](https://www.anthropic.com/news/genesis-mission-commitment)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap](https://www.anthropic.com/news/claude-frontier-academy)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### Anthropic News
+
+- [Claude console](https://platform.claude.com/)
+- Priority: high
+- Suggested targets: sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [IBM Introduces Identity and Control for AI Agents, Securing Frontier Intelligence for the Enterprise](https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [Securing AI-assisted software delivery with IBM Bob Premium Package for DevSecOps](https://www.ibm.com/new/announcements/securing-ai-assisted-software-delivery-with-ibm-bob-premium-package-for-devsecops)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [IBM Concert platform advances the path to cross-domain agentic IT operations](https://www.ibm.com/new/announcements/ibm-concert-platform-advances-the-path-to-cross-domain-agentic-it-operations)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities at TechXchange 2026](https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [IBM Agent Identity is now generally available: Building trust for the agentic era](https://www.ibm.com/new/announcements/ibm-agent-identity-is-now-generally-available-building-trust-for-the-agentic-era)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [Terraform advances infrastructure lifecycle management for the agentic era](https://www.ibm.com/new/announcements/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### IBM Newsroom
+
+- [Securing AI agents from identity to access to action](https://www.ibm.com/new/announcements/securing-ai-agents-from-identity-to-access-to-action)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### Fujitsu Research News
+
+- [2026年10月30日 告知 空間World Modelの技術ページを公開](https://documents.research.global.fujitsu.com/spatial-world-model/)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/fujitsu-hitachi.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
+### Fujitsu Research News
+
+- [2026年10月19日 告知 企業間マルチAIエージェント連携によるレジリエントなサプライチェーンマネジメントの技術ページを公開](https://documents.research.global.fujitsu.com/resilient-supply-chain/)
+- Priority: normal
+- Suggested targets: sources/competitor-sources.md, 05-competition/fujitsu-hitachi.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md
+
 
 ## Source status
 
@@ -30,12 +377,12 @@
 | [NRI AI Portal](https://ai.nri.com/) | high | ok | 40 | sources/ai-frontier-sources.md, 03-ai-ax, 08-synthesis/watchlist.md |
 | [NRI コーポレート・ガバナンス](https://www.nri.com/jp/company/co_governance/governance.html) | normal | ok | 3 | sources/governance-sources.md, 04-governance, 08-synthesis/watchlist.md |
 | [OpenAI News / model updates](https://openai.com/news/) | high | error (HTTPError: HTTP Error 403: Forbidden) | 0 | sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md |
-| [Anthropic News](https://www.anthropic.com/news) | high | ok | 40 | sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md |
+| [Anthropic News](https://www.anthropic.com/news) | high | ok | 38 | sources/ai-frontier-sources.md, 03-ai-ax/frontier-model-impact.md, 03-ai-ax/timeline-2026.md, 08-synthesis/watchlist.md |
 | [Accenture Newsroom](https://newsroom.accenture.com/) | normal | warning (0 matched links) | 0 | sources/competitor-sources.md, 05-competition/accenture.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
 | [NTT DATA News](https://www.nttdata.com/global/en/news/) | normal | ok | 35 | sources/competitor-sources.md, 05-competition/ntt-data.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
-| [IBM Newsroom](https://newsroom.ibm.com/) | normal | ok | 11 | sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
+| [IBM Newsroom](https://newsroom.ibm.com/) | normal | ok | 10 | sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
 | [Deloitte Global Press Room](https://www.deloitte.com/global/en/about/press-room.html) | normal | ok | 12 | sources/competitor-sources.md, 05-competition/ibm-deloitte.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
-| [Fujitsu Research News](https://portal.research.global.fujitsu.com/news.html) | normal | ok | 12 | sources/competitor-sources.md, 05-competition/fujitsu-hitachi.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
+| [Fujitsu Research News](https://portal.research.global.fujitsu.com/news.html) | normal | ok | 14 | sources/competitor-sources.md, 05-competition/fujitsu-hitachi.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
 | [Hitachi Press Releases](https://www.hitachi.com/ja-jp/press/) | normal | ok | 12 | sources/competitor-sources.md, 05-competition/fujitsu-hitachi.md, 05-competition/competitor-map.md, 08-synthesis/watchlist.md |
 
 ## Current matched items
@@ -43,6 +390,8 @@
 ### NRI IR 決算短信・説明会資料
 
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/0111/linkList/0/link/test0.pdf)
+- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/0/link/20261029_financialresultspresentation.pdf)
+- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01116/linkList/00/link/20261029_supplementalmaterial.xlsx)
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/0/link/20260730_financialresultspresentation.pdf)
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/00/link/20260730_supplementalmaterial.xlsx)
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01115/linkList/02/link/20260730_financialresultspresentaionwithnote.pdf)
@@ -50,8 +399,6 @@
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/0/link/20260424_financialresultspresentation.pdf)
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/00/link/20260424_supplementalmaterial.xlsx](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/00/link/20260424_supplementalmaterial.xlsx)
 - [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/03/link/20260424_financialresultspresentaionwithnote.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/03/link/20260424_financialresultspresentaionwithnote.pdf)
-- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/04/link/20260424_financialresultspresentaionqa.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/04/link/20260424_financialresultspresentaionqa.pdf)
-- [https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf](https://ir.nri.com/jp/ir/library/financial/main/00/teaserItems1/01114/linkList/01/link/20260424_mediumtermmanagementplan.pdf)
 
 ### NRI 中期経営計画
 
@@ -81,7 +428,7 @@
 
 ### NRI 統合レポート
 
-- [NRI統合レポート2026 ＜全文表示＞（9,066KB）](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf)
+- [NRI統合レポート2026 ＜全文表示＞（19,760KB）](https://ir.nri.com/jp/ir/library/report/main/016/teaserItems2/0/link/ar2026_print.pdf)
 
 ### NRI 有価証券報告書
 
@@ -132,16 +479,16 @@
 
 ### NRI AI Portal
 
+- [2026/10/22 野村総合研究所とNRIセキュア、AI駆動型サイバー攻撃への経営層の対応力強化を支援](https://www.nri.com/jp/news/newsrelease/20261022_1.html)
+- [2026/10/15 NRIセキュア、AI駆動開発のセキュリティ対策を支援するサービスを提供開始](https://www.nri.com/jp/news/newsrelease/20261015_1.html)
 - [2026/09/17 NRIセキュア、「フロンティアAI対応プロアクティブ脆弱性診断」のデータ取り扱い体制を強化](https://www.nri.com/jp/news/info/20260917_1.html)
-- [2026/09/16 野村総合研究所、三菱重工業とAIを始めとしたデジタル技術を活用した業務プロセス改革への共同検討と実践活動を開始](https://www.nri.com/jp/news/info/20260916_1.html)
-- [2026/08/27 NRIセキュア、AIをはじめとするエマージングテクノロジーの利活用を支えるセキュリティガバナンス構築支援サービスを提供開始](https://www.nri.com/jp/news/newsrelease/20260827_1.html)
-- [203X : AIで拡張する社会](https://www.nri.com/jp/service/souhatsu/extending_society_with_ai.html)
-- [生成AIを活用した企業変革](https://www.nri.com/jp/service/theme/ai/generative_ai.html)
-- [NRI Solution Ai](https://www.nri.com/jp/service/solution/solution_ai.html)
-- [AIセキュリティ](https://www.nri-secure.co.jp/service/ai-security)
+- [https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp](https://ai.nri.com/wp/wp-content/themes/nri/assets/images/index/img_capabilities.webp)
+- [AIサービス一覧](https://www.nri.com/jp/service/theme/ai/index.html)
 - [2026/06/17 トピックス 野村総合研究所、AIロボット協会に参画～「フィジカルAX」を加速 ～](https://www.nri.com/jp/media/topics/20260617.html)
 - [2026/02/24 お知らせ 野村総合研究所、Anthropic Japanとのパートナーシップを拡大](https://www.nri.com/jp/news/info/20260224_1.html)
 - [2025/11/20 ニュースリリース 野村総合研究所、日本国内初のAnthropic認定リセラーに選定](https://www.nri.com/data/jp/news/files/000054634.pdf)
+- [2025/10/29 ニュースリリース 野村総合研究所、企業の生成AI活用を支援する「AI共創モデル」をGoogle Cloudに拡大](https://www.nri.com/jp/news/newsrelease/20251029_2.html)
+- [2025/10/16 ニュースリリース 野村総合研究所、AWSと生成AI分野で戦略的協業契約を締結](https://www.nri.com/jp/news/newsrelease/20251016_2.html)
 
 ### NRI コーポレート・ガバナンス
 
@@ -155,16 +502,16 @@
 
 ### Anthropic News
 
-- [Try Claude](https://claude.ai/)
-- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
-- [Introducing Claude Sonnet 5.5 Announcements Sep 28, 2026 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.](https://www.anthropic.com/claude-sonnet-5-5)
-- [Announcements Sep 22, 2026 Introducing Claude Opus 5.5 Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.](https://www.anthropic.com/claude-opus-5-5)
-- [Features Sep 22, 2026 The Situation Report A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.](https://www.anthropic.com/features/ebola-response)
-- [Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-- [Announcements Sep 10, 2026 Detecting and countering misuse of AI: September 2026 Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.](https://www.anthropic.com/threat-intelligence-report-september-2026)
-- [Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
-- [Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
-- [Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)
+- [Announcements](https://www.anthropic.com/news/announcements)
+- [Introducing Claude Opus 5.5 Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.](https://www.anthropic.com/claude-opus-5-5)
+- [https://www.anthropic.com/news/public-benefit-fund](https://www.anthropic.com/news/public-benefit-fund)
+- [Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
+- [Early progress on accelerating drug development with Claude We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+- [Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.](https://www.anthropic.com/claude-haiku-5-5)
+- [Introducing Claude Sonnet 5.5 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.](https://www.anthropic.com/claude-sonnet-5-5)
+- [https://www.anthropic.com/features/making-of-claude-code](https://www.anthropic.com/features/making-of-claude-code)
+- [https://www.anthropic.com/features/claude-on-mars](https://www.anthropic.com/features/claude-on-mars)
+- [Features](https://www.anthropic.com/news/features)
 
 ### Accenture Newsroom
 
@@ -188,13 +535,13 @@
 - [Artificial intelligence](https://newsroom.ibm.com/latest-news-artificial-intelligence)
 - [Hybrid cloud](https://newsroom.ibm.com/latest-news-hybrid-cloud)
 - [securityintelligence.com](https://securityintelligence.com/)
-- [IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance](https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance)
-- [Extending AI-Powered IBM Z application modernization with self-hosted deployment and new analysis capabilities](https://www.ibm.com/new/announcements/ibm-bob-premium-package-for-z-expands-with-on-premises-deployment-and-new-saas-capabilities)
-- [IBM Study: As AI Scales Enterprise-Wide, CFOs Play an Expanded Role in Transformation](https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation)
-- [Building Trust Into the Next Generation of AI Agents](https://newsroom.ibm.com/blog-building-trust-into-the-next-generation-of-ai-agents)
-- [IBM Acquires Logiq Consulting to Expand Secure Digital Transformation and Cybersecurity Capabilities in the UK](https://newsroom.ibm.com/2026-09-24-ibm-acquires-logiq-consulting-to-expand-secure-digital-transformation-and-cybersecurity-capabilities-in-the-uk)
-- [Marist University and IBM Launch Innovation Incubator with IBM z17, Expanding 50-Year Partnership to Advance AI Research and Student Career Readiness](https://newsroom.ibm.com/2026-09-22-marist-university-and-ibm-launch-innovation-incubator-with-ibm-z17,-expanding-50-year-partnership-to-advance-ai-research-and-student-career-readiness)
-- [New IBM CHRO Study: AI Puts Critical Thinking at the Center of Workforce Priorities](https://newsroom.ibm.com/2026-09-21-new-ibm-chro-study-ai-puts-critical-thinking-at-the-center-of-workforce-priorities)
+- [IBM Introduces Identity and Control for AI Agents, Securing Frontier Intelligence for the Enterprise](https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise)
+- [Securing AI-assisted software delivery with IBM Bob Premium Package for DevSecOps](https://www.ibm.com/new/announcements/securing-ai-assisted-software-delivery-with-ibm-bob-premium-package-for-devsecops)
+- [IBM Concert platform advances the path to cross-domain agentic IT operations](https://www.ibm.com/new/announcements/ibm-concert-platform-advances-the-path-to-cross-domain-agentic-it-operations)
+- [IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities at TechXchange 2026](https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026)
+- [IBM Agent Identity is now generally available: Building trust for the agentic era](https://www.ibm.com/new/announcements/ibm-agent-identity-is-now-generally-available-building-trust-for-the-agentic-era)
+- [Terraform advances infrastructure lifecycle management for the agentic era](https://www.ibm.com/new/announcements/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era)
+- [Securing AI agents from identity to access to action](https://www.ibm.com/new/announcements/securing-ai-agents-from-identity-to-access-to-action)
 
 ### Deloitte Global Press Room
 
@@ -213,14 +560,14 @@
 
 - [AI](https://portal.research.global.fujitsu.com/kozuchi/)
 - [Data&Security](https://portal.research.global.fujitsu.com/data-security/)
+- [2026年10月30日 告知 空間World Modelの技術ページを公開](https://documents.research.global.fujitsu.com/spatial-world-model/)
+- [2026年10月19日 告知 企業間マルチAIエージェント連携によるレジリエントなサプライチェーンマネジメントの技術ページを公開](https://documents.research.global.fujitsu.com/resilient-supply-chain/)
 - [2026年10月01日 告知 Fujitsu AI Ethics for Fairnessのアプリケーションの公開を終了](https://documents.research.global.fujitsu.com/ai-ethics-fairness/)
 - [2026年09月11日 告知 記事内容の正確性を期すため、「Takane特化技術」の記事タイトル等を修正](https://documents.research.global.fujitsu.com/domain-specific-ai/)
 - [2026年02月06日 告知 Fujitsu Amalgamation AI for Visionの技術ページを公開](https://documents.research.global.fujitsu.com/amalgamation-ai-for-vision/)
 - [2026年01月29日 告知 Multi AI Agent Frameworkの技術ページを公開](https://documents.research.global.fujitsu.com/multi-ai-agent-framework/)
 - [2026年01月27日 告知 エンタープライズLLM「Takane」と生成AI再構成の技術ページを公開](https://documents.research.global.fujitsu.com/takane-enterprise-llm-with-generative-ai-reconstruction/)
 - [2026年01月21日 告知 Fujitsu因果AIの技術ページを公開](https://documents.research.global.fujitsu.com/Data-Driven-Decision-Making/)
-- [2025年11月17日 告知 ゼロエミッション材料開発を加速する HPC & AI 融合技術の技術ページを公開](https://documents.research.global.fujitsu.com/materials-informatics/)
-- [2025年06月30日 告知 AI computing brokerの技術ページを公開](https://documents.research.global.fujitsu.com/ai-computing-broker/)
 
 ### Hitachi Press Releases
 
